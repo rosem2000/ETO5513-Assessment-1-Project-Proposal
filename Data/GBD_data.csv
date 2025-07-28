@@ -1,0 +1,641 @@
+measure,location,sex,age,cause,rei,metric,year,val,upper,lower
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1990,5732.359979786051,9591.536334643672,2233.6665266292875
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1991,5852.756148659319,9722.997316023037,2316.856657769321
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1992,6037.364576398321,10070.671361027224,2422.7048537475544
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1993,6291.438349387768,10540.674384155842,2610.3390293803923
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1994,6511.138666080754,10682.612776192094,2741.3168105240866
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1995,6555.333916780503,10877.724424526868,2765.27887032176
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1996,6476.4135493618605,10710.434243253134,2735.5441643115346
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1997,6373.238200803786,10555.785734589152,2666.120276343615
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1998,6358.134094466854,10466.118020755865,2638.3357914665794
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,1999,6418.446065914009,10573.624301807082,2653.3283289293986
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2000,6447.492798953125,10552.6755938416,2662.7122471153343
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2001,6336.786291529099,10531.876691332687,2624.606949192219
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2002,6226.274457718427,10288.418242225063,2597.74102358374
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2003,6218.37836105429,10273.737240730108,2609.748517507418
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2004,6303.005899816064,10452.371843016312,2653.070215753485
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2005,6410.816182992793,10630.827210083797,2733.125269545677
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2006,6390.040564249695,10582.564816565777,2704.9599652058287
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2007,6451.1455644280695,10692.42758085444,2752.237260219465
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2008,6550.896744780443,10866.58300107463,2785.1665116548406
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2009,6528.568926635207,10817.422670551116,2790.2927499527887
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2010,6532.539524414385,10825.936181869318,2781.4203146575965
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2011,6430.780372039796,10606.85400857584,2734.2594951922883
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2012,6316.6740483002295,10450.122006473386,2672.12300250674
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2013,6128.958274522825,10070.99675440351,2588.6825208595155
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2014,5936.035776807279,9757.321771244451,2514.2327967380907
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2015,5751.317881610239,9427.2738641315,2407.618374137924
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2016,5727.698880745897,9425.460845396625,2415.778080722637
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2017,5693.677944541982,9386.471284988183,2396.3324333616147
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2018,5652.303578614481,9302.90531630384,2350.367646554483
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2019,5635.856880551042,9315.132535391158,2376.4306510982296
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2020,5469.274976897871,8979.200909515843,2298.9156681764384
+Deaths,Global,Both,20-24 years,Self-harm,High alcohol use,Number,2021,5462.175272459711,8947.11980985192,2275.674524843619
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1990,6166.325144471811,11744.407981734525,1812.7516953688032
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1991,6480.77787460453,12262.58860661909,1994.499379640944
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1992,6443.884944654793,12406.700541485608,1830.652417153395
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1993,6839.82248626135,12919.730374866149,2087.1402482214203
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1994,7293.206370146623,13685.53818061783,2390.956277778965
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1995,7530.334591777039,13824.090792306675,2500.3941658898284
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1996,7201.96031955329,13357.046442103496,2277.3490514892783
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1997,7120.438236896731,12763.936498201345,2504.9315206095525
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1998,7728.393992705374,13671.780622813214,2345.381565421977
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,1999,7583.610547652701,13187.289113980978,2564.097290792377
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2000,7459.040965291271,13009.688470592751,2445.0576026854437
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2001,7488.024223365664,12762.813570895025,2559.8657240374982
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2002,7574.124031975353,12971.514529411772,2429.736150307632
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2003,7322.585705916626,12570.462297973692,2217.9229539999264
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2004,7440.765318800827,12716.902885588588,2351.8793467286378
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2005,7573.02408108437,13102.991562925416,2143.393824048553
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2006,7612.946385141632,12902.569215769105,2447.254130650156
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2007,7445.903682734515,12851.922612566974,2134.7945781803764
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2008,7260.647427560931,12275.211872034432,2375.830624940121
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2009,7653.286299658835,13144.459082397534,2317.5688082453016
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2010,7653.2982590768925,13489.07037500452,1964.770432362836
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2011,6957.725910108977,11861.020890872827,1980.5771226019956
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2012,7027.850792252399,12547.25510025712,1520.8085555307098
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2013,6695.708486893261,11610.953396894096,1687.7610302532466
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2014,6621.724320333691,11542.225722300802,1604.6517717710617
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2015,6720.431860779983,11261.347130028604,2148.092510230689
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2016,6933.295736688798,11707.253283083804,2079.037770276629
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2017,6834.170113146438,11445.429076518038,2114.7658767418643
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2018,6675.730817752391,11161.694389216907,2123.1429233217973
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2019,6729.107843012391,11544.050012848817,1981.2685012308984
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2020,6479.78443664387,10833.97648969567,2085.109518646916
+Deaths,Global,Both,20-24 years,Self-harm,All risk factors,Number,2021,6470.706562189226,10694.39312106503,2180.4735710924424
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1990,7783.695854834052,13102.293500958467,3781.860521569096
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1991,7960.787790957185,13337.437516770871,3904.6786956232554
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1992,8223.320385700583,13741.48317089337,4007.620004690366
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1993,8587.56846921021,14406.038517475195,4228.169130845958
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1994,8907.411803206287,14913.309081336676,4418.442192708095
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1995,8970.546166438615,14722.09417095729,4504.005149827104
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1996,8880.992532341887,14424.573456712596,4491.911371832643
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1997,8753.692268202733,14090.274667316437,4430.827960973441
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1998,8759.629198887298,13883.517217994657,4441.874417658372
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1999,8902.784647435758,13832.377502958516,4548.085586979158
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2000,8967.738831602917,13874.279620453572,4644.320511792934
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2001,8778.894219911943,13661.890742806285,4566.067076573952
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2002,8574.981774420863,13198.547876029936,4453.04103387059
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2003,8510.360178261015,13052.527188863256,4470.825616479695
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2004,8578.090883410003,13143.610388827694,4507.9973481386405
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2005,8688.321737137072,13308.783432988505,4587.895389358351
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2006,8578.928001130986,13142.917642356544,4531.612275622776
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2007,8559.657397385672,13038.44849504558,4500.729814735494
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2008,8577.748115731612,13004.937881697577,4504.221075348035
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2009,8455.215070422091,12832.89441412376,4470.170839863236
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2010,8404.095538497371,12838.87818735385,4431.146543286028
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2011,8241.004274030647,12450.93978040938,4340.144415294912
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2012,8073.997222686057,12206.214519422372,4237.5759836694415
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2013,7830.938762553779,11856.086213859842,4106.132761221275
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2014,7587.776656241723,11475.525920920389,3976.843807875107
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2015,7371.32255258746,11112.905235494543,3864.572111950596
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2016,7382.135255133615,11213.73229630018,3864.682262857993
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2017,7399.397043116555,11017.52671143828,3880.121380958576
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2018,7380.6874082489185,11038.539301407847,3917.734444038869
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2019,7368.86191432104,11061.617135936449,3853.7501994795975
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2020,7196.351710405023,10768.476649816546,3785.694074808448
+Deaths,Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2021,7193.6349046306495,10805.51326716974,3754.3473067909904
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1990,-1930.37786188996,-333.8104272303291,-3255.5122632034418
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1991,-1810.284807229288,119.64376528221744,-3423.6337668581905
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1992,-2143.308354865325,-199.5084999127245,-3774.8457893272607
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1993,-2146.136659074339,-120.04202815565412,-3849.2917885786014
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1994,-2011.4491993156091,227.6940717771336,-3964.457059765021
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1995,-1829.726350851495,413.21243345834193,-3875.408637521388
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1996,-2116.883200068855,70.40047703975728,-4143.3398255689735
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1997,-2041.873304346234,-81.2226342278991,-3789.168450780729
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1998,-1406.295385801587,1315.98024318308,-4060.283878551245
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1999,-1730.5712537316665,617.2365863000236,-4019.647390947429
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2000,-1944.235376351236,304.55590228672406,-4076.587954576137
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2001,-1706.7594636186911,541.2176849081733,-3762.995334293568
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2002,-1385.872253349915,1155.6040022108757,-3894.5239728880415
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2003,-1585.2655448473772,861.4855681242014,-3991.259255618628
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2004,-1530.1714573634313,841.0867797138351,-3876.774522291091
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2005,-1509.7983701492842,1289.1074053151983,-4257.751833031735
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2006,-1345.4103309916695,1161.4645981207782,-3816.855380046336
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2007,-1474.6930472803424,1215.4635720949002,-4214.419358546909
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2008,-1689.1727900992453,580.7626812910356,-3835.4019970565246
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2009,-1147.1996313811549,1675.4427077125013,-4029.472540693925
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2010,-1079.4348075940768,2153.8296166755654,-4472.266027577214
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2011,-1623.1166768988996,807.1565536445867,-4079.1141830948345
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2012,-1345.7549638948578,1701.3043014710229,-4525.100219516156
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2013,-1424.628563159526,1083.048655563999,-3976.562248269392
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2014,-1234.3680442639466,1320.916966456472,-3944.127337344474
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2015,-869.246744477886,1378.9488006995807,-3288.6372721200314
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2016,-649.8256306858459,1829.3735342770465,-3329.4459497026337
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2017,-773.3702821079478,1617.9462770818946,-3284.667066016932
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2018,-923.3207489688784,1311.875607258368,-3246.123412446711
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2019,-841.7902425688903,1618.8650676190236,-3527.5938897339647
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2020,-914.0544975814968,1284.0821913175987,-3194.7251797755166
+Deaths,Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2021,-931.2934256111886,1084.6532442152857,-2976.431832960946
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1990,1615.3895087918654,3211.0887980605685,-53.4000968861287
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1991,1879.0817089091408,3683.513575850511,-81.82794040466942
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1992,1790.8971973727382,3593.9936938635883,-198.0053442696981
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1993,1825.894895072924,3691.097241517087,-164.55873597187392
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1994,1905.612258819468,3881.064162415113,-218.8734324137734
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1995,2048.598616791073,4147.744109814265,-278.5486590089825
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1996,1905.9059752711323,3884.744482840732,-218.44315292883283
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1997,1838.526396968277,3541.4256868052853,-15.850043385183714
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1998,2285.8589173641885,4777.5396773997845,-485.7885380501818
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,1999,2067.4052550697006,4204.008935260983,-265.1618301962488
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2000,1958.749043732488,3968.159284413416,-212.17255219272775
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2001,1974.055210533106,3942.9090103123713,-171.81511775638694
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2002,2124.673355811695,4479.038182387216,-480.3972925036866
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2003,2012.053639440997,4155.325306366709,-414.8043225305736
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2004,2057.015990393148,4226.051724731007,-366.9555346946822
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2005,2178.3249583564407,4564.771945171853,-505.31696769398536
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2006,2129.3278814363243,4409.514363813578,-347.3693283339609
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2007,2117.7621859853093,4456.108562324411,-513.3307231925043
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2008,1930.7113380208016,3861.1406013345736,-252.6770001894493
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2009,2240.763090971919,4849.722471306578,-708.2737638359115
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2010,2387.1783245325646,5306.501776479753,-956.650304989526
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2011,1948.0898220913064,4051.1795536194304,-361.3075923284387
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2012,2190.6345735478094,4875.267504350879,-787.8588989915893
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2013,1926.571411031356,4097.736129977979,-537.2707773078936
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2014,1925.5031028939525,4244.861117474855,-717.5821673410458
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2015,1884.5194005252995,3986.022611482789,-560.4228967219974
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2016,1992.0829956875248,4395.065872960524,-769.6152701407494
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2017,1918.1502202547376,4234.739322071032,-745.4913048252389
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2018,1765.9905705726687,3816.241817065241,-635.34242018409
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2019,1861.3958462323876,4200.625029876208,-899.1053258575403
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2020,1761.83014504879,3756.046346471057,-548.824982718972
+Deaths,Global,Both,20-24 years,Self-harm,High temperature,Number,2021,1704.9654869220449,3568.541102128198,-424.2490132808722
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1990,2279.6154665731824,7319.454029674349,202.6043294926972
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1991,2351.7351121409656,7379.416171773413,220.91007948518947
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1992,2452.6963922749187,7660.400751487712,248.62851195498416
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1993,2597.256744109145,7864.104383548463,292.166470152435
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1994,2731.687187344791,8044.310197318438,352.8574327736376
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1995,2768.599800085066,7985.934459859092,402.4850339421761
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1996,2768.464681745603,7780.479314692137,425.38906592173896
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1997,2749.3719141192114,7358.911630741345,439.5216576708004
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1998,2782.606586721957,7324.274690482707,483.28688799040685
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,1999,2893.889008131533,7358.30821867122,529.1686978527941
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2000,2949.45638476308,7398.786792133944,559.4471229356129
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2001,2865.3205396914577,7045.43297713603,559.5441766592178
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2002,2759.936466104819,6796.869828311286,546.7259730337962
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2003,2700.117228921701,6614.399462942958,536.1788129004514
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2004,2685.35981526517,6505.006948186149,537.1707889046875
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2005,2695.943051430601,6508.306747373214,549.660684698641
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2006,2588.976867072989,6266.007577180655,525.7772476558239
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2007,2493.554170100999,6081.080625633023,498.1430271691503
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2008,2397.32763481793,5917.125056968769,474.2334052319073
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2009,2277.5299326133177,5651.962051574458,441.20828088014434
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2010,2209.0092574203104,5530.380499568062,423.7888130755323
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2011,2129.2941362022257,5358.145295268149,407.1144946759628
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2012,2058.7561230987644,5195.127677133773,400.45869209468606
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2013,1987.3419022300104,5019.54232163823,385.1958899442154
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2014,1926.6839783765124,4863.383441644033,374.5868078018221
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2015,1887.817901831953,4741.747356965276,369.9504998917112
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2016,1927.0056698981343,4750.349780865425,387.86188974509446
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2017,1985.57154270846,4793.691865060158,417.27996363865066
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2018,2012.9950732643624,4815.904178189692,430.2372144296406
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2019,2017.9561172103372,4793.304931593989,438.0782921267465
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2020,2009.2222872827,4860.730480529074,430.4226117984209
+Deaths,Global,Both,20-24 years,Self-harm,Drug use,Number,2021,2013.0162502796693,4937.784094739318,427.4809964697848
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1990,-1930.37786188996,-333.8104272303291,-3255.5122632034418
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1991,-1810.284807229288,119.64376528221744,-3423.6337668581905
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1992,-2143.308354865325,-199.5084999127245,-3774.8457893272607
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1993,-2146.136659074339,-120.04202815565412,-3849.2917885786014
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1994,-2011.4491993156091,227.6940717771336,-3964.457059765021
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1995,-1829.726350851495,413.21243345834193,-3875.408637521388
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1996,-2116.883200068855,70.40047703975728,-4143.3398255689735
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1997,-2041.873304346234,-81.2226342278991,-3789.168450780729
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1998,-1406.295385801587,1315.98024318308,-4060.283878551245
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1999,-1730.5712537316665,617.2365863000236,-4019.647390947429
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2000,-1944.235376351236,304.55590228672406,-4076.587954576137
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2001,-1706.7594636186911,541.2176849081733,-3762.995334293568
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2002,-1385.872253349915,1155.6040022108757,-3894.5239728880415
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2003,-1585.2655448473772,861.4855681242014,-3991.259255618628
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2004,-1530.1714573634313,841.0867797138351,-3876.774522291091
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2005,-1509.7983701492842,1289.1074053151983,-4257.751833031735
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2006,-1345.4103309916695,1161.4645981207782,-3816.855380046336
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2007,-1474.6930472803424,1215.4635720949002,-4214.419358546909
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2008,-1689.1727900992453,580.7626812910356,-3835.4019970565246
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2009,-1147.1996313811549,1675.4427077125013,-4029.472540693925
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2010,-1079.4348075940768,2153.8296166755654,-4472.266027577214
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2011,-1623.1166768988996,807.1565536445867,-4079.1141830948345
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2012,-1345.7549638948578,1701.3043014710229,-4525.100219516156
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2013,-1424.628563159526,1083.048655563999,-3976.562248269392
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2014,-1234.3680442639466,1320.916966456472,-3944.127337344474
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2015,-869.246744477886,1378.9488006995807,-3288.6372721200314
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2016,-649.8256306858459,1829.3735342770465,-3329.4459497026337
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2017,-773.3702821079478,1617.9462770818946,-3284.667066016932
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2018,-923.3207489688784,1311.875607258368,-3246.123412446711
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2019,-841.7902425688903,1618.8650676190236,-3527.5938897339647
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2020,-914.0544975814968,1284.0821913175987,-3194.7251797755166
+Deaths,Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2021,-931.2934256111886,1084.6532442152857,-2976.431832960946
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1990,-3601.8236019132014,-2835.726086830079,-4276.201585434929
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1991,-3752.2078582133695,-3019.98193166348,-4390.069166569372
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1992,-4000.366208579281,-3247.6219910974623,-4565.923854451568
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1993,-4035.280298514559,-3311.544585723108,-4638.792607389493
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1994,-3984.3403252363673,-3276.971961286541,-4557.340875333273
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1995,-3949.9133038191744,-3264.3284998245645,-4511.375972184236
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1996,-4090.3811903925575,-3436.2554938854373,-4620.910994244152
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1997,-3945.5884978358895,-3328.7958763037377,-4490.419907908825
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1998,-3768.029491810072,-3164.61715265332,-4325.2765610837605
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,1999,-3870.804685799632,-3278.434929308896,-4363.193922709994
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2000,-3975.9085406250088,-3371.163250820316,-4456.045340515475
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2001,-3748.9697526176224,-3217.366596270462,-4238.332453524961
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2002,-3581.627193214092,-3068.989944423889,-4093.430505585152
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2003,-3667.0521663283057,-3129.890047446132,-4200.66036264876
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2004,-3658.111023379807,-3125.9433822207893,-4153.488535699827
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2005,-3764.61987986937,-3218.559917404312,-4278.3748236784495
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2006,-3543.6764858778265,-3026.026512270369,-4032.058194082176
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2007,-3668.328737837364,-3118.0385566025698,-4178.459396469721
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2008,-3688.95599580618,-3182.493765257449,-4237.6258117007
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2009,-3458.9874592483866,-2955.984151645461,-4014.109464094315
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2010,-3547.3863860244437,-3066.8701106327885,-4029.7198564141327
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2011,-3643.9804056742414,-3139.780947762108,-4113.0397423141785
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2012,-3619.4795730999817,-3086.116937549981,-4051.0234918240767
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2013,-3423.5430050763453,-2976.7799678832466,-3835.612124234184
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2014,-3233.65897007824,-2821.6748266747345,-3666.6547888275218
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2015,-2817.9765734837624,-2416.9683242792594,-3280.7239862983665
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2016,-2704.6206873148194,-2338.743147407861,-3138.730852184771
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2017,-2756.8515447656287,-2370.5343584833527,-3176.7487340158173
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2018,-2751.2284895492403,-2402.098442892338,-3156.733102123674
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2019,-2770.5223216449194,-2407.7471875323126,-3202.551280728156
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2020,-2740.7421944281214,-2373.933118391148,-3146.1520118847457
+Deaths,Global,Both,20-24 years,Self-harm,Low temperature,Number,2021,-2696.5678799028983,-2353.543363401975,-3074.606960429045
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1990,3198.132635982894,5998.368518050361,1051.7375492564336
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1991,3232.764732807024,6062.915321460581,1062.7832217503628
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1992,3248.010672167464,6084.9645456223325,1077.3852170395432
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1993,3252.820565426588,6135.968017785839,1079.2537144854143
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1994,3239.111751336992,6089.031616922879,1078.703204101822
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1995,3208.9509211896143,6012.333484189285,1068.3787852238331
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1996,3161.248509853237,5939.303000310983,1063.965064448019
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1997,3104.995131884773,5834.376305858865,1041.905824191823
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1998,3059.5388451555536,5743.106369524844,1038.6221376176056
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1999,3033.314267449404,5686.931029448913,1044.993778609674
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2000,3031.5278591982387,5661.729727212189,1048.5579393005871
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2001,3041.319956858858,5670.615247215501,1051.9890688456203
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2002,3060.070548571165,5685.50707906766,1046.852194103201
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2003,3084.577727313535,5712.864777538152,1067.6445459988872
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2004,3111.121849875358,5770.950035575324,1089.1608012326942
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2005,3133.277532576021,5787.669722734967,1083.0885955167746
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2006,3164.688203029757,5846.115216479611,1107.3105733582706
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2007,3195.6467760255728,5921.511331516801,1123.0933629825831
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2008,3215.582902304804,5922.145278326704,1160.8571071474062
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2009,3222.3202651944166,5987.871550905831,1174.053923400998
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2010,3204.904079213976,5941.461500626952,1170.104608119968
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2011,3153.535942157592,5841.274092715343,1161.6231349602615
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2012,3077.308350035469,5709.454520580877,1123.0777731702142
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2013,2988.3466830069483,5509.071596713975,1089.6379739455106
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2014,2900.891396564937,5342.300421516062,1046.4681377294546
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2015,2818.825174901658,5166.1321715592985,1003.7394178879922
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2016,2746.8438079774005,5082.388239884106,980.2297526293726
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2017,2679.690936204184,4912.966882381657,956.0124524018512
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2018,2626.532798298419,4846.818996781587,941.9470005919516
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2019,2587.7682457017117,4756.833463835836,932.3326297481358
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2020,2560.7341075318363,4717.31919032981,925.8684418837736
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2021,2545.1320612103355,4690.522425990201,935.108178346802
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1990,2019.8628876779824,6997.202428297745,163.3800883712149
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1991,2038.0421315492692,6999.550360275062,172.8512347604224
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1992,2038.463320240692,6938.256508857379,182.18197906922973
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1993,2034.712821972072,6770.534660574915,195.50822347585145
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1994,2017.336775028324,6626.905295750392,207.93712138857896
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1995,1985.9950247791,6320.238633809725,219.44965974168227
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1996,1944.4347954972063,6055.638267774449,232.7270986304788
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1997,1896.335837046693,5757.93325453585,254.41488342082516
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1998,1854.4874370381224,5322.582470216375,260.016812622878
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,1999,1821.6817066841115,5102.936214502931,273.2962486716007
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2000,1796.0407039929428,4955.31805744926,301.67624651050977
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2001,1763.2239836585793,4835.399037003695,317.7442607617704
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2002,1725.0990248348055,4736.755277790215,324.90640259779457
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2003,1685.7067586776664,4649.309283559999,326.0666889140253
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2004,1651.2790102410186,4497.990098450098,323.2111875939271
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2005,1621.7723958228858,4432.668022346834,317.7663252731186
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2006,1587.5828328576115,4330.597862809532,307.6679712759599
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2007,1531.6526091793658,4203.021111292345,292.6484111830275
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2008,1463.7146812226897,4064.560727313687,277.77068275580064
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2009,1399.2715597002034,3909.426797472879,261.2192865158866
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2010,1347.8278134251418,3753.188148283523,249.18221561695168
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2011,1305.9425828036576,3633.0361656448554,240.46853888665527
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2012,1265.170269759651,3486.511545280394,234.70943961180453
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2013,1230.27704863515,3374.813878788261,234.4405309140112
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2014,1203.8880439325835,3276.198598455082,236.53144120782167
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2015,1185.3665056758105,3205.383280731594,240.09867146619595
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2016,1189.0333574104204,3162.303431378652,248.8915910087425
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2017,1210.111563461913,3111.3859765758853,262.64966956483386
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2018,1230.8010133160135,3102.725843860979,271.9996495077038
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2019,1235.9602886144162,3083.405668258064,274.2731643128883
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2020,1235.8662842744122,3095.673597992195,274.5438172766909
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Drug use,Number,2021,1250.2888982888862,3165.0247789567047,280.48528603056025
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1990,5095.836268881639,9763.009798338106,2020.791636139884
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1991,5143.073246548682,9675.328604075265,2057.023907383149
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1992,5153.736424389766,9669.318171486384,2073.7823983301564
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1993,5149.896928751647,9517.577364812878,2090.7186381331107
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1994,5114.666790114694,9414.564742435432,2095.863691648546
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1995,5050.023788633038,9151.228083426538,2102.9610221592834
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1996,4957.692581209453,8938.2513805339,2083.2463621232705
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1997,4849.3900320555695,8708.744391438791,2067.2151965091343
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1998,4757.259349053246,8508.718944927838,2060.2262687256325
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,1999,4693.463396018626,8373.908253316004,2053.4691078963624
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2000,4662.682084359825,8245.458985665355,2044.7825704377176
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2001,4638.27579594362,8180.282070397553,2036.307426932905
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2002,4618.432898550269,8138.198568481657,2024.5320271719845
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2003,4603.474377708218,8111.440244225829,2016.1810867645656
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2004,4596.05743295027,8111.336964073399,1998.247339275312
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2005,4589.756979297661,8083.222057333223,1998.254180595388
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2006,4588.697721804553,8107.086991457022,1972.99551194053
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2007,4567.530303630289,8058.578017363432,1963.93004664636
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2008,4525.214528849533,7962.050288354996,1934.6264427393644
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2009,4473.706425109648,7860.20641875553,1906.860970201028
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2010,4410.829302131017,7690.36912913588,1881.5232456742017
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2011,4323.8251896643815,7559.648643514607,1842.0501755570604
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2012,4213.030362417241,7398.144713472612,1784.8581421155282
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2013,4094.375261476385,7116.258362644835,1753.7616083194366
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2014,3983.9121035305247,6938.092888220896,1693.9136796380144
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2015,3885.262338207344,6783.397134736033,1657.3645904290106
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2016,3816.452536514666,6644.106048487626,1630.8029725930787
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2017,3768.42327143138,6539.470898532247,1613.5773705608965
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2018,3733.959606828223,6470.990819642851,1610.0987291088998
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2019,3699.8894141928345,6393.542141016291,1612.853801381082
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2020,3672.943297394136,6312.385197326162,1624.553262675622
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,All risk factors,Number,2021,3671.690743678255,6343.347886440397,1613.5650480126174
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1990,5095.836268881639,9763.009798338106,2020.791636139884
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1991,5143.073246548682,9675.328604075265,2057.023907383149
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1992,5153.736424389766,9669.318171486384,2073.7823983301564
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1993,5149.896928751647,9517.577364812878,2090.7186381331107
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1994,5114.666790114694,9414.564742435432,2095.863691648546
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1995,5050.023788633038,9151.228083426538,2102.9610221592834
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1996,4957.692581209453,8938.2513805339,2083.2463621232705
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1997,4849.3900320555695,8708.744391438791,2067.2151965091343
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1998,4757.259349053246,8508.718944927838,2060.2262687256325
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1999,4693.463396018626,8373.908253316004,2053.4691078963624
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2000,4662.682084359825,8245.458985665355,2044.7825704377176
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2001,4638.27579594362,8180.282070397553,2036.307426932905
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2002,4618.432898550269,8138.198568481657,2024.5320271719845
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2003,4603.474377708218,8111.440244225829,2016.1810867645656
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2004,4596.05743295027,8111.336964073399,1998.247339275312
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2005,4589.756979297661,8083.222057333223,1998.254180595388
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2006,4588.697721804553,8107.086991457022,1972.99551194053
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2007,4567.530303630289,8058.578017363432,1963.93004664636
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2008,4525.214528849533,7962.050288354996,1934.6264427393644
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2009,4473.706425109648,7860.20641875553,1906.860970201028
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2010,4410.829302131017,7690.36912913588,1881.5232456742017
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2011,4323.8251896643815,7559.648643514607,1842.0501755570604
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2012,4213.030362417241,7398.144713472612,1784.8581421155282
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2013,4094.375261476385,7116.258362644835,1753.7616083194366
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2014,3983.9121035305247,6938.092888220896,1693.9136796380144
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2015,3885.262338207344,6783.397134736033,1657.3645904290106
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2016,3816.452536514666,6644.106048487626,1630.8029725930787
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2017,3768.42327143138,6539.470898532247,1613.5773705608965
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2018,3733.959606828223,6470.990819642851,1610.0987291088998
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2019,3699.8894141928345,6393.542141016291,1612.853801381082
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2020,3672.943297394136,6312.385197326162,1624.553262675622
+YLDs (Years Lived with Disability),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2021,3671.690743678255,6343.347886440397,1613.5650480126174
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1990,154224.07974269206,495220.4806734488,13699.133837518806
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1991,159095.0134450545,499231.7717186258,14939.748695878445
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1992,165908.8787443865,518196.7529678536,16812.556049022656
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1993,175663.1941001873,531911.2210549101,19755.766964371946
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1994,184715.65868194285,543991.947021288,23853.01185333432
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1995,187188.8537287102,539940.1527908118,27212.876385795014
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1996,187167.017180982,525961.737778238,28760.84732256065
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1997,185871.30353798583,497440.2648486637,29720.17151112696
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1998,188125.7571019032,495152.4054672764,32676.878204892462
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,1999,195652.91454998383,497487.345284416,35776.46099331837
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2000,199413.5193549208,500269.749134521,37819.39690822372
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2001,193717.64974365375,476365.4838218091,37822.562890976245
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2002,186582.280136472,459547.1598935144,36953.17834935791
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2003,182536.5927695483,447192.7654357562,36238.4406183646
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2004,181535.6233374669,439831.53109124815,36301.586248372434
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2005,182237.95038488336,440102.7535138646,37139.504041911394
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2006,174986.7951011253,423688.4677958169,35518.99956977491
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2007,168520.03723036175,411131.8663947022,33649.38199363434
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2008,161999.3720438783,399936.0601588799,32033.043403621607
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2009,153869.0401616969,381913.9134183386,29796.818657235228
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2010,149217.21444246767,373653.0703300538,28616.88983486028
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2011,143826.54305999848,361982.6177796683,27491.931438807005
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2012,139048.190820865,350911.3032302843,27042.543404035878
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2013,134211.41951652846,339012.8110381847,26010.138569480485
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2014,130125.1298944301,328473.7382193984,25296.801191500235
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2015,127512.22845986806,320298.50224914844,24986.25513044015
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2016,130166.67444797176,320898.67885592533,26197.47422578165
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2017,134126.72296537354,323837.3760306392,28180.69423353501
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2018,135983.8689110726,325349.76188065833,29059.84737284598
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2019,136331.84732908354,323847.6773554695,29593.70522722465
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2020,135782.5347355312,328478.1373578475,29088.755371964515
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Drug use,Number,2021,136054.81969221047,333708.9999237874,28892.950054808825
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1990,387799.8520782445,648904.9088855695,151096.24927117972
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1991,395916.5555746689,657744.9284907145,156712.60521098686
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1992,408338.5373485176,681146.0060446844,163846.19223242762
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1993,425439.125868242,712800.3777874869,176498.98282083654
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1994,440210.1062321052,722253.398597193,185322.0574635433
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1995,443157.3576543701,735393.1981211277,186928.71425750584
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1996,437819.6493775243,724078.475357776,184914.67601454788
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1997,430861.1169388992,713647.2975980169,180231.85994235333
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1998,429875.7005305092,707627.4638004045,178366.2185229942
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,1999,433952.6282626748,714906.089529484,179377.51003181844
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2000,435926.4988638532,713502.1038533264,180017.73281263345
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2001,428442.2464653825,712094.1606883197,177436.17296296547
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2002,420944.0063235636,695595.0439566965,175605.7872265824
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2003,420395.6651699613,694562.7900554643,176416.46759418782
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2004,426113.3399893866,706674.930776077,179338.5564248833
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2005,433389.1570691156,718724.3697384723,184736.99683289512
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2006,431959.3426416803,715399.4262570466,182828.2253413644
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2007,436069.7615666013,722827.3493265377,186007.0283040281
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2008,442788.83814560727,734549.2689822323,188215.66804134703
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2009,441207.3157545976,731108.0486142016,188543.0117602949
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2010,441408.5357575664,731550.9446612375,187919.1921680764
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2011,434513.19744661474,716706.7666052355,184724.39976698608
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2012,426757.3022137836,706055.5135337015,180510.11745408137
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2013,414029.30013939546,680349.620163966,174856.0553399989
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2014,401023.3999401724,659217.1101097739,169838.67982001125
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2015,388566.5612899999,636934.532682962,162655.81388572807
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2016,386994.9576491755,636873.8601798671,163209.66899296205
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2017,384708.9282322523,634237.54055912,161902.8536292279
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2018,381929.038082785,628614.9702318318,158801.52687242514
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2019,380847.4318612602,629489.1102219265,160576.7006093465
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2020,369641.92506700056,606867.5014998291,155367.5669507265
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High alcohol use,Number,2021,369178.9202101596,604723.4834623674,153799.770850426
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1990,417169.90432776936,794596.0408876534,122628.2298353192
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1991,438417.9918615961,829577.1872002741,134901.99618062735
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1992,435837.4516445719,839196.5084855264,123795.71275288776
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1993,462530.0628757393,873757.0300705186,141108.5389742194
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1994,493104.1455914615,925425.5632658998,161575.36497491354
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1995,509098.9315888085,934678.9539278405,168955.5181516231
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1996,486897.76593014185,903017.111649975,153886.1096002345
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1997,481399.9503296598,862826.881553314,169327.80848832015
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1998,522574.1711820193,924564.2764142863,158555.37490004988
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,1999,512760.8699294722,891761.6183920853,173295.74226944725
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2000,504317.32697300846,879659.8251607651,165221.43548628967
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2001,506273.75305074255,862973.9334241049,172999.21185092189
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2002,512067.9136833142,877098.9717281112,164212.21221973165
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2003,495039.9919723158,850005.4508653046,149774.56063849505
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2004,503026.4724517753,859927.3757825624,158852.99615843798
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2005,511936.1751988556,886089.1678969797,144688.66337977926
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2006,514605.6261106855,872403.7151561712,165214.11900264374
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2007,503268.1270860429,868981.4051549428,144084.4897146854
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2008,490719.97465176287,829821.3502979439,160376.5553729193
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2009,517228.17486842815,888538.0721903555,156531.633377093
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2010,517170.0457472616,911776.16543233,132596.92964433506
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2011,470129.78246075753,801650.2254794026,133764.60284038633
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2012,474852.151486383,847945.3777807301,102607.87227403384
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2013,452354.5733152008,784571.8500056596,113888.37083287092
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2014,447396.56902403006,780021.7014862271,108255.36803433653
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2015,454101.2338380795,761061.6058610883,144938.8754624664
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2016,468514.78123910486,791185.8166309025,140387.53857031697
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2017,461801.5656458028,773465.9287630633,142752.15723461643
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2018,451093.5221954155,754320.6975858838,143373.25473016468
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2019,454729.9801118955,780200.3911220166,133775.81062008406
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2020,437946.925224183,732287.7023129351,140847.23948162785
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,All risk factors,Number,2021,437362.5647677672,722908.0256931693,147344.0893000209
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1990,109324.75517831463,217308.82355375896,-3607.754165379594
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1991,127153.52874662174,249248.0747005992,-5534.328406152607
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1992,121167.73499911978,243156.2169634169,-13396.10819274838
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1993,123527.96086557972,249721.41285999064,-11135.032980380443
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1994,128919.5941035587,262559.2523445572,-14807.434093536602
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1995,138581.99211825227,280577.21272172243,-18847.45808551346
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1996,128930.72487023174,262781.6840796322,-14776.885378769704
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1997,124380.08836985922,239560.42433606036,-1063.9043346299095
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1998,154667.18379134682,323239.65914081223,-32859.61548714114
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,1999,139884.2731385369,284440.6231564594,-17941.183016191422
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2000,132522.8460682475,268478.73929419904,-14362.351094063582
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2001,133541.78481295615,266734.5794969448,-11631.205674409464
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2002,143724.43274175675,302993.6072695177,-32506.546944391528
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2003,136136.44442501306,281148.6888852719,-28076.32591952905
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2004,139207.5925191196,286017.05427675275,-24856.05542385435
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2005,147414.46866202523,308946.8044277757,-34228.87128579316
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2006,144084.08130421213,298400.2541665616,-23541.394605798327
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2007,143292.04275253855,301532.26038119965,-34760.10154908201
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2008,130628.12689008692,261248.5455966056,-17111.531306090303
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2009,151583.42508094254,328079.3234041934,-47933.529164935935
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2010,161466.44546678945,358924.54775785963,-64716.849648801
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2011,131786.91051116752,274046.278148992,-24446.16536844288
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2012,148184.98117810057,329757.5910559009,-53295.87920145304
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2013,130310.69208765971,277146.15309065225,-36329.51950411481
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2014,130261.27408642696,287172.97687216965,-48553.03370043142
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2015,127488.17177639462,269654.8709277326,-37916.46498884163
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2016,134743.4163620741,297259.15394607466,-52044.26521404393
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2017,129719.83112411748,286367.1453024222,-50401.20058622157
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2018,119417.40126043248,258037.95164594043,-42958.58171738911
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2019,125862.43615790473,284027.0777969061,-60789.26420418853
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2020,119148.12491770876,253998.1566073937,-37111.785595475405
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,High temperature,Number,2021,115312.13423442592,241347.92036026315,-28688.18521547179
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1990,-130586.16513373677,-22542.550857181915,-220268.1234331634
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1991,-122450.1168127074,8133.283641678518,-231634.6270474256
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1992,-144981.88429800133,-13481.511118836976,-255381.2519512181
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1993,-145152.92856870638,-8088.238797241176,-260396.9715522468
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1994,-136005.06728749193,15456.050979665222,-268162.8627803161
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1995,-123692.5246094212,28025.26922710601,-262121.57231436693
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1996,-143090.5515642434,4872.16563955244,-280225.3110214736
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1997,-138017.37976452836,-5373.439015258587,-256266.76026607893
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1998,-95017.03346733432,89187.22360826646,-274634.89584406005
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,1999,-116971.24436657265,41890.55349498337,-271903.0314091314
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2000,-131455.3313164152,20688.293175313316,-275751.06188706507
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2001,-115395.564617142,36679.24739956754,-254526.41969727835
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2002,-93690.27418914382,78247.43208709784,-263414.8283704341
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2003,-107176.80593904704,58394.39579099736,-269998.4171061181
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2004,-103449.19507762944,57067.01516146911,-262292.0291107998
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2005,-102079.38911142093,87386.79033545672,-288089.881354108
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2006,-90949.69994017282,78723.24314152513,-258218.7765138619
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2007,-99700.21132269308,82337.01950662864,-285103.0803423831
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2008,-114181.57173349315,39361.77368236615,-259417.33600490555
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2009,-77468.31515687627,113468.54826562467,-272479.29024257424
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2010,-72857.42152780066,145796.59615586995,-302357.2780892951
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2011,-109609.42518452568,54762.45988367099,-275806.1907697925
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2012,-90822.66018314536,115321.22162411158,-305919.0931790576
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2013,-96151.89323115376,73488.25842032013,-268800.0536391939
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2014,-83296.38783098568,89563.23049976786,-266676.2234375228
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2015,-58629.95500789053,93463.60521043584,-222333.1976239832
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2016,-43805.70957529888,123859.68052630182,-225070.81214287697
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2017,-52187.639452002295,109547.9123794582,-222045.24507985084
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2018,-62343.364884926814,88781.81900195783,-219438.5000392364
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2019,-56847.15861242326,109516.88447911038,-238462.87390397492
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2020,-61756.19576089599,86891.60529250171,-216009.6391780848
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Non-optimal temperature,Number,2021,-62923.91023701875,73437.6113051518,-201256.715821174
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1990,-130586.16513373677,-22542.550857181915,-220268.1234331634
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1991,-122450.1168127074,8133.283641678518,-231634.6270474256
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1992,-144981.88429800133,-13481.511118836976,-255381.2519512181
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1993,-145152.92856870638,-8088.238797241176,-260396.9715522468
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1994,-136005.06728749193,15456.050979665222,-268162.8627803161
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1995,-123692.5246094212,28025.26922710601,-262121.57231436693
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1996,-143090.5515642434,4872.16563955244,-280225.3110214736
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1997,-138017.37976452836,-5373.439015258587,-256266.76026607893
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1998,-95017.03346733432,89187.22360826646,-274634.89584406005
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,1999,-116971.24436657265,41890.55349498337,-271903.0314091314
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2000,-131455.3313164152,20688.293175313316,-275751.06188706507
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2001,-115395.564617142,36679.24739956754,-254526.41969727835
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2002,-93690.27418914382,78247.43208709784,-263414.8283704341
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2003,-107176.80593904704,58394.39579099736,-269998.4171061181
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2004,-103449.19507762944,57067.01516146911,-262292.0291107998
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2005,-102079.38911142093,87386.79033545672,-288089.881354108
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2006,-90949.69994017282,78723.24314152513,-258218.7765138619
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2007,-99700.21132269308,82337.01950662864,-285103.0803423831
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2008,-114181.57173349315,39361.77368236615,-259417.33600490555
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2009,-77468.31515687627,113468.54826562467,-272479.29024257424
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2010,-72857.42152780066,145796.59615586995,-302357.2780892951
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2011,-109609.42518452568,54762.45988367099,-275806.1907697925
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2012,-90822.66018314536,115321.22162411158,-305919.0931790576
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2013,-96151.89323115376,73488.25842032013,-268800.0536391939
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2014,-83296.38783098568,89563.23049976786,-266676.2234375228
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2015,-58629.95500789053,93463.60521043584,-222333.1976239832
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2016,-43805.70957529888,123859.68052630182,-225070.81214287697
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2017,-52187.639452002295,109547.9123794582,-222045.24507985084
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2018,-62343.364884926814,88781.81900195783,-219438.5000392364
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2019,-56847.15861242326,109516.88447911038,-238462.87390397492
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2020,-61756.19576089599,86891.60529250171,-216009.6391780848
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Environmental/occupational risks,Number,2021,-62923.91023701875,73437.6113051518,-201256.715821174
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1990,-243704.57286708537,-191878.47787555825,-289331.2027668492
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1991,-253855.92723545732,-204323.39276673715,-297000.420792405
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1992,-270625.9833327021,-219703.8391202661,-308871.12792478374
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1993,-272960.01741219725,-224000.25866369973,-313772.9660456569
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1994,-269476.3315290861,-221637.88713607425,-308205.7106423306
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1995,-267117.3190146243,-220755.31486136856,-305065.69102858193
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1996,-276593.7457175157,-232365.35945569188,-312454.729476908
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1997,-266807.4974773489,-225110.5171565055,-303626.08020538674
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1998,-254817.8474029665,-214011.3839804573,-292476.97777060745
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,1999,-261782.98543738667,-221714.42814488904,-295073.0915070849
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2000,-268912.1535299265,-227998.66711972293,-301375.01849971514
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2001,-253548.17347792667,-217593.8562244321,-286644.8911537189
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2002,-242223.31384460744,-207554.7856336684,-276837.64552370034
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2003,-248031.83914439532,-211704.8451638823,-284100.8717382403
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2004,-247456.9338012599,-211472.2447637481,-280933.5472765052
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2005,-254671.12653691796,-217747.21316899103,-289411.1527632426
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2006,-239699.04941365495,-204717.65920120955,-272749.36386595154
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2007,-248126.49547907576,-210914.45933023983,-282616.8916407272
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2008,-249483.24771689612,-215242.5533604592,-286580.91070611554
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2009,-233856.742734857,-199868.26545843057,-271349.31680545426
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2010,-239787.1894915875,-207323.79684920085,-272356.94067627884
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2011,-246319.2199026255,-212245.2256900784,-277998.00684679043
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2012,-244627.80963411368,-208587.83743325103,-273756.7222608238
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2013,-231355.2323440073,-201146.708014575,-259211.07703711968
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2014,-218549.24558698383,-190699.4255136797,-247779.33559808476
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2015,-190461.6889808824,-163385.93403895348,-221726.1115103629
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2016,-182790.31441464205,-158069.37472778483,-212090.86509447423
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2017,-186325.19532294932,-160241.88945469598,-214685.95033662888
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2018,-185947.33104933065,-162356.6799284068,-213328.3383489121
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2019,-187262.48524217264,-162773.1721188574,-216430.6811669437
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2020,-185290.38162434995,-160500.674142539,-212688.20476694583
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Low temperature,Number,2021,-182314.67643501936,-159136.08726593893,-207878.82469821905
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1990,526584.172868556,886453.6789250723,255833.94113865995
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1991,538528.1939927365,902263.7406200008,264128.73360133404
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1992,556208.6088021615,929479.2017746532,271049.1816897172
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1993,580742.7911681157,974238.1726044512,285914.02356266143
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1994,602253.9966154333,1008359.0261113062,298723.987691163
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1995,606459.8847647856,995317.8462114563,304486.6341909624
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1996,600389.2931856328,975118.985023396,303666.95180841105
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1997,591794.7823719305,952493.6628063913,299545.5086455376
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1998,592240.1553318892,938683.4683852834,300323.9198338152
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,1999,601923.8313049016,935240.0168955452,307493.52784842893
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2000,606330.9747037885,938107.0216447652,313994.2141191402
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2001,593558.2941882474,923756.06211084,308692.1586325454
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2002,579737.011682292,892379.4353079759,301039.3060387848
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2003,575354.3775973659,882516.2370982768,302224.8519530904
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2004,579930.5635326125,888671.7772272597,304720.12125159765
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2005,587361.9802198998,899899.4439396774,310112.3926158367
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2006,579925.4780187249,888566.8526097226,306276.80061239284
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2007,578587.5783343323,881406.8563698286,304171.24213597726
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2008,579770.2202761851,879104.4692758999,304385.1536901555
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2009,571385.4345657079,867300.2969670416,302048.82503278845
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2010,567844.0535967407,867582.1861275414,299365.7964469516
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2011,556800.0750423409,841316.966088167,293195.9009301707
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2012,545458.2989870264,824674.7280197021,286247.5884276734
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2013,528980.0211478738,800936.3411201788,277338.83704144234
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2014,512589.4005234171,775272.6112936209,268633.3702740491
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2015,497998.60228229855,750788.2705954614,261052.8677057363
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2016,498758.0443646091,757638.8133308087,261091.6288454992
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2017,499938.71747033845,744415.8453113579,262139.94960268404
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2018,498693.2204899166,745861.0028131247,264678.593189468
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2019,497933.9572035253,747501.2266467246,260377.17967052816
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2020,486361.95590726,727774.3984585709,255833.51296777852
+YLLs (Years of Life Lost),Global,Both,20-24 years,Self-harm,Behavioral risks,Number,2021,486208.7681259378,730323.8051919239,253734.46909705468

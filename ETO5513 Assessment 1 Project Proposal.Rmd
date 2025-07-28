@@ -1,0 +1,162 @@
+---
+title: 'ETO5513 Assessment 1: Project Proposal'
+author: "Megan O'Rorke 35602287"
+date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+output:
+  bookdown::html_document2:
+    keep_md: true
+    toc: true
+    toc_float: true
+    theme: journal
+    highlight: kate
+    # (Xie et al. 2023)
+    # (Xie et al. 2025)
+---
+
+```{r setup, include=FALSE}
+# Set up figure rendering options for document
+knitr::opts_chunk$set(fig.path = "Figures/", fig.align = "center", out.width = "100%")
+```
+
+```{r loading-libraries, message = FALSE, warning = FALSE, echo = FALSE}
+# Load necessary libraries
+    library(rmarkdown)
+    library(knitr)
+    library(tidyverse)
+    library(readr)
+    library(kableExtra)
+    library(ggplot2)
+    library(gridExtra)
+    library(readxl)
+```
+
+## Research Question
+
+Self-harm is a serious public health concern globally, with prior research (Richardson et al. 2024) finding bullying victimisation, sleep disturbance, mental health disorders and identifying as part of the LGBTQI+ community to be key risk factors for self-harm and suicidality in young people.
+
+This report aims to investigate which are the most significant risk factors associated with self-harm among 20–24 year-olds from 1990 to 2021, and how has their effect on deaths, years of life lost and years lived with disability changed over time?
+
+## Data Set Introduction
+
+The data set analysed in this report is a subset of the [Global Burden of Disease Study 2021](https://vizhub.healthdata.org/gbd-results/) exploring the influence of different risk factors on the number of deaths, years of life lost and years lived with disability due to self-harm in 20-24 year-olds between 1990 and 2021. Each observation contains the years of life lost, years lived with disability and death figures for a particular risk factor in a given year, across both sexes globally.
+
+The data set includes three numerical variables: *Years of Life Lost (YLLs)*, measuring how many years of life were lost due to premature death attributed to self-harm, *Years Lived with Disability (YLDs)*, measuring the severity-weighted number of years individuals lived with health-loss attributed to self-harm, and *Deaths*, measuring the number of deaths attributed to self-harm. It also contains two categorical variables: *Risk Factor*, indicating the attribute or exposure causally related to an increase in self-harm (Global Burden of Disease Study 2021), and *Year*, which spans from 1990 to 2021. All variables are recorded globally for 20–24 year-olds of both sexes.
+
+The variable names within this data set can be observed in Table \@ref(tab:load-the-data-and-clean) below:
+
+```{r load-the-data-and-clean, echo = TRUE, warning = FALSE, message = FALSE}
+gbd_data <- read.csv("./Data/GBD_data.csv")
+
+# Remove unnecessary columns for metric, cause location, age, sex upper and lower
+gbd_data2 <- gbd_data %>% 
+  select(measure, rei, year, val)
+
+# Use pivot wider to split the measure column values for deaths, YLL and YLD into their own columns so that each year/risk factor pair has only one observation across all 3 variables
+gbd_data_wide <- gbd_data2 %>%
+  # Use pivot_wider on the measure column to create new columns for each  
+  pivot_wider(names_from = "measure", values_from = "val") %>%
+  # Rename columns for clarity and streamlining
+  rename(ylds = "YLDs (Years Lived with Disability)",
+         ylls = "YLLs (Years of Life Lost)",
+         deaths = "Deaths",
+         risk_factor = "rei")
+
+# Create a table using kable() and names() to display the variable names in the data set
+knitr::kable(names(gbd_data_wide), col.names = "Variable Name", caption = "GBD Data Set Variables") 
+```
+
+## Data Set Description
+
+Within the subset of the Global Burden of Disease 2021 data explored in this report, there are **`r nrow(gbd_data_wide)` observations** across **`r ncol(gbd_data_wide)` variables**, as described in Table \@ref(tab:load-the-data-and-clean) above.
+
+```{r display-code-image, out.width = '100%', echo = TRUE, warning = FALSE, message = FALSE}
+# Display the code image
+knitr::include_graphics("./Image/Description Screenshot.png")
+```
+
+Of the 5 variables, *YLLs*, *YLDs* and *Deaths* are of numeric type, as most values are recorded with decimal points. The *Risk Factor* variable is of character type, representing the name of each risk category. The *Year* variable is stored as an integer but will be treated as a categorical variable when analysing trends and changes in YLLs, YLDs, and Deaths over time.
+
+```{r display-2-rows-data, echo = TRUE, warning = FALSE, message = FALSE}
+# Display first 2 data rows using str() and head () to set observation rows displayed to 2
+str(head(gbd_data_wide, 2))
+```
+## Data Summary
+
+The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the first portion of the Section \@ref(research-question) Research Question.
+
+```{r create-summary-data, echo = TRUE, warning = FALSE, message = FALSE}
+# Select risk_factor as the categorical variable and ylls and deaths as numeric
+summary_data <- gbd_data_wide %>% 
+  select(risk_factor, ylls, deaths) %>%
+  # Group by risk_factor and create mean and sum statistics
+  group_by(risk_factor) %>% 
+  summarise(mean_ylls = mean(ylls, na.rm=TRUE), 
+            sum_ylls = sum(ylls, na.rm=TRUE), 
+            mean_deaths = mean(deaths, na.rm=TRUE), 
+            sum_deaths = sum(deaths, na.rm=TRUE))
+
+# Create a table of the summary_data and add caption
+knitr::kable(head(summary_data, 10), caption = "Summary Statistics by Risk Factor", digits = 2)
+```
+
+In Table \@ref(tab:create-summary-data) above, it can be observed that behavioural risks are associated with the most deaths and YLLs from self-harm, with a total of 263,431 deaths and 17,806,633 YLLs reported from 1990 to 2021. Conversely, environmental and temperature-related risks appear to have **negative** values, suggesting a non-attributable relationship with self-harm-related burdens.
+
+## Visualisations
+
+As explored in Table \@ref(tab:create-summary-data) above, behavioural risks such as tobacco use, child malnutrition, low physical activity, unsafe sex, dietary risks, domestic violence and bullying have the highest association with health burdens attributed to self-harm.
+
+The line plot below depicts the trends in self-harm related deaths attributed to behavioural risks over time, from 1990 to 2021.
+
+```{r line-plot-of-burdens-by-year-for-behavioural-risks, echo = TRUE, warning = FALSE, message = FALSE}
+# Filter data to just behavioural risk observations
+behavioural <- gbd_data_wide %>%
+  # Filter to plot only the figures for behavioural risks
+  filter(risk_factor == "Behavioral risks")
+
+# Use ggplot to create line plot of the 3 health burdens from 1990-2021
+  # Use ggplot to plot year on x axis and deaths, ylls and ylds as y axis values
+ggplot(behavioural, aes(x=year, y=deaths)) +
+  # Set line plot and colour
+  geom_line(color = "Hot Pink") +
+  # Use geom_point to add point mappings for each year
+  geom_point(color = "Hot Pink") +
+  # Scale x axis to ensure readability of year values
+  scale_x_continuous(breaks = seq(1990, 2021, 2)) +
+  # Scale y axis to remove scientific number formatting
+  scale_y_continuous(labels = scales::comma) +
+  # Set caption and axis labels
+  labs(caption = "Self-Harm Related Deaths Attributed to Behavioural Risks, 1990-2021",
+    x = "Year",
+    y = "Number of Deaths") +
+  # Set different theme
+  theme_light() +
+  # Make caption centered and larger (OpenAI 2024)
+  theme(plot.caption = element_text(hjust = 0.5, size = 12))
+```
+
+- *In the line plot above, it can be observed that deaths from self-harm associated with behavioural risks had a positive association with year, gradually rising between 1990 and 1995. Deaths peaked in 1995 before declining and then peaking again in 2000.*
+- *Since 2000, there has been a strong negative association between year and the number of self-harm deaths, likely due to the global implementation of various education and assistance programs that help mitigate the impact of behavioural risk factors.*
+
+## Conclusions
+
+The significance of risk factors associated with self-harm among 20-24 year-olds from 1990 to 2021 were analysed using the Global Burden of Disease Study 2021 data.
+
+Behavioural risks returned the highest mean of 556,457.27 and sum of 17,806,633	years of life lost spanning from 1990-2021, and the highest mean of 8,232.21	and sum of 263,430.57 deaths from 1990-2021.
+
+The effect of behavioural risks on deaths has changed over time, reporting a significant decline in total deaths from 2000 onwards.
+
+These findings show that overall, behavioural risks were the most significant factor associated with self-harm in 20-24 year-olds from 1990 to 2021, however, their impact has reduced over time. As the world continues to become more adept in educating and implementing protective barriers for those susceptible to behavioural risks, the volume of health burdens associated with self-harm will continue to decrease. 
+
+## References
+
+Richardson, R., Connell, T., Foster, M., Blamires, J., Smita Keshoor, Moir, C. and Irene Suilan Zeng (2024). *Risk and Protective Factors of Self-harm and Suicidality in Adolescents: An Umbrella Review with Meta-Analysis.* Journal of youth and adolescence, 53(6). doi:<https://doi.org/10.1007/s10964-024-01969-w>.
+
+Global Burden of Disease Collaborative Network (2021). *Global Burden of Disease Study 2021 (GBD 2021) Results.* Seattle, United States: Institute for Health Metrics and Evaluation (IHME). <https://vizhub.healthdata.org/gbd-results/>.
+
+Xie, Y., Allaire, J.J., Grolemund, G. (2023). *R Markdown: The Definitive Guide.* Bookdown Org. <https://bookdown.org/yihui/rmarkdown/>
+
+Xie, Y., Dervieux, C., Riederer, E. (2025). *R Markdown Cookbook.* Bookdown Org. <https://bookdown.org/yihui/rmarkdown-cookbook/>.
+
+Rdocumentation Org (2019). *str: Compactly Display the Structure of an Arbitrary R Object*. Rdocumentation. <https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/str>.
+
+OpenAI (2024) *ChatGPT* (GPT-4-turbo, May 2024 version)[Large language model]. https://chat.openai.com/
