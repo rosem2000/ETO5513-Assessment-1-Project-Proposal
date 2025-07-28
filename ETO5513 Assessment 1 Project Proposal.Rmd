@@ -120,6 +120,7 @@ burdens_over_time <- gbd_data_wide %>%
 # Create a table of the burdens_over_time from last decade and add caption
 knitr::kable(tail(burdens_over_time, 10), caption = "Change in Health Burden Values for All Risk Factors, 2012-2021", digits = 2)
 ```
+
 In Table \@ref(tab:create-table-of-burdens-over-time) above, it can be observed that across all health burdens for all risk factors, there is a significant **negative** association with year. The greatest reduction in all health burdens occurred from 2012 to 2013, with YLLs in particular reducing by a total of 22,497.58 years. Notably, both YLLs and deaths increased in 2015, 2016 and 2019 from the year prior, reflecting an increase in exposure to certain risk factors during those periods. YLDs consistently declined year-on-year at a slower rate than deaths and YLLs, suggesting that gradual improvements in healthcare systems may have assisted in reducing disability burdens.
 
 ## Visualisations
@@ -187,6 +188,7 @@ ggplotly(bar_chart) %>%
       # Set the vertical (y) position of legend to above the plot
       y = 1.1))
 ```
+
 - *In Figure \@ref(fig:stacked-bar-chart-burdens-by-year-for-behavioural-risks) above, YLLs have annually contributed approximately 97.7% of the total health burdens reported from behavioural-risk-associated self-harm between 1990 and 2021.*
 - *This consistency reflects that self-harm remains overwhelmingly fatal over time, causing a large number of premature deaths. YLLs dominate the data set, as they represent the number of years of life lost for each 20-24 year-old self-harm death - which is significant as this demographic are typically healthy with considerable years left to live.*
 
