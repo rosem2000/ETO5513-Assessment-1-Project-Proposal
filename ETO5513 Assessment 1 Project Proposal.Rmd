@@ -116,7 +116,7 @@ burdens_over_time <- gbd_data_wide %>%
            ylds_diff = total_ylds - lag(total_ylds))
 
 # Create a table of the burdens_over_time from 2000 and add caption
-knitr::kable(tail(burdens_over_time, 21), caption = "Summary Statistics of All Risk Factor Health Burdens, 2000-2021", digits = 2)
+knitr::kable(tail(burdens_over_time, 21), caption = "Change in Health Burden Values for All Risk Factors, 2000-2021", digits = 2)
 ```
 
 ## Visualisations
