@@ -28,6 +28,7 @@ knitr::opts_chunk$set(fig.path = "Figures/", fig.align = "center", out.width = "
     library(ggplot2)
     library(gridExtra)
     library(readxl)
+    library(plotly)
 ```
 
 ## Research Question
@@ -107,7 +108,7 @@ As explored in Table \@ref(tab:create-summary-data) above, behavioural risks suc
 
 The line plot below depicts the trends in self-harm related deaths attributed to behavioural risks over time, from 1990 to 2021.
 
-```{r line-plot-of-burdens-by-year-for-behavioural-risks, echo = TRUE, warning = FALSE, message = FALSE}
+```{r line-plot-of-deaths-by-year-for-behavioural-risks, echo = TRUE, warning = FALSE, message = FALSE}
 # Filter data to just behavioural risk observations
 behavioural <- gbd_data_wide %>%
   # Filter to plot only the figures for behavioural risks
@@ -134,8 +135,38 @@ ggplot(behavioural, aes(x=year, y=deaths)) +
   theme(plot.caption = element_text(hjust = 0.5, size = 12))
 ```
 
-- *In the line plot above, it can be observed that deaths from self-harm associated with behavioural risks had a positive association with year, gradually rising between 1990 and 1995. Deaths peaked in 1995 before declining and then peaking again in 2000.*
+- *In the line plot above, it is observed that deaths from self-harm associated with behavioural risks had a positive association with year, gradually rising between 1990 and 1995. Deaths peaked in 1995 before declining and then peaking again in 2000.*
 - *Since 2000, there has been a strong negative association between year and the number of self-harm deaths, likely due to the global implementation of various education and assistance programs that help mitigate the impact of behavioural risk factors.*
+
+```{r stacked-bar-chart-burdens-by-year-for-behavioural-risks, fig.cap = "Proportion of Self-Harm Related Burdens Attributed to Behavioural Risks, 1990-2021", echo = TRUE, warning = FALSE, message = FALSE, out.width = "100%"}
+# Filter previous long version data set to just behavioural risk observations (so ylls,ylds & deaths are all under the original measures variable)
+behavioural2 <- gbd_data2 %>%
+  # Filter to plot only the figures for behavioural risks
+  filter(rei == "Behavioral risks")
+# Use ggplot to create basic plot
+# Plot year on x axis, value on y axis, and ensure the fill of bars is set to each measure
+bar_chart <- ggplot(behavioural2, aes(x=year, y=val, fill = measure)) +
+  # Set bar position to fill for the proportion of each health burden
+  geom_bar(stat = "identity", position = "fill") +
+  # Scale x axis to ensure readability of year values
+  scale_x_continuous(breaks = seq(1990, 2021, 5)) +
+  labs(x = "Year", 
+       y = "Proportion of Burden",
+       fill = "Health Burden") +
+  # Set theme
+  theme_light() +
+  # Move legend above plot so the width of plot is maintained
+  theme(legend.position = "top")
+# Use ggplotly from plotly package to make plot interactive
+ggplotly(bar_chart) %>%
+  # Adjust the layout of the legend in plotly so that the legend remains above the plot
+  # (OpenAI 2024)
+  layout(legend = list(
+      # Set to horizontal legend
+      orientation = "h",
+      # Set the vertical (y) position of legend to above the plot
+      y = 1.1))
+```
 
 ## Conclusions
 
