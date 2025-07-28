@@ -82,7 +82,7 @@ str(head(gbd_data_wide, 2))
 ```
 ## Data Summary
 
-The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the first portion of the Section \@ref(research-question) Research Question.
+The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the Section \@ref(research-question) Research Question.
 
 ```{r create-summary-data, echo = TRUE, warning = FALSE, message = FALSE}
 # Select risk_factor as the categorical variable and ylls and deaths as numeric
@@ -100,6 +100,24 @@ knitr::kable(head(summary_data, 10), caption = "Summary Statistics by Risk Facto
 ```
 
 In Table \@ref(tab:create-summary-data) above, it can be observed that behavioural risks are associated with the most deaths and YLLs from self-harm, with a total of 263,431 deaths and 17,806,633 YLLs reported from 1990 to 2021. Conversely, environmental and temperature-related risks appear to have **negative** values, suggesting a non-attributable relationship with self-harm-related burdens.
+
+```{r create-table-of-burdens-over-time, echo = TRUE, warning = FALSE, message = FALSE}
+burdens_over_time <- gbd_data_wide %>%
+  # Filter to show burden impacts across all risk factors
+  filter(risk_factor == "All risk factors") %>%
+  group_by(year) %>%
+  # Calculate sum of each burden
+  summarise(total_ylls = sum(ylls, na.rm=TRUE), 
+            total_deaths = sum(deaths, na.rm=TRUE),
+            total_ylds = sum(ylds, na.rm=TRUE)) %>% 
+    # Use mutate and lag to calculate the difference between previous year total and current year total and avoid all difference columns being NA (OpenAI 2024)
+    mutate(ylls_diff = total_ylls - lag(total_ylls),
+           deaths_diff = total_deaths - lag(total_deaths),
+           ylds_diff = total_ylds - lag(total_ylds))
+
+# Create a table of the burdens_over_time from 2000 and add caption
+knitr::kable(tail(burdens_over_time, 21), caption = "Summary Statistics of All Risk Factor Health Burdens, 2000-2021", digits = 2)
+```
 
 ## Visualisations
 

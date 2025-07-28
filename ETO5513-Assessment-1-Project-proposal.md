@@ -1,7 +1,7 @@
 ---
 title: 'ETO5513 Assessment 1: Project Proposal'
 author: "Megan O'Rorke 35602287"
-date: "27/07/2025"
+date: "28/07/2025"
 output:
   bookdown::html_document2:
     keep_md: true
@@ -95,7 +95,7 @@ str(head(gbd_data_wide, 2))
 ```
 ## Data Summary
 
-The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the first portion of the Section \@ref(research-question) Research Question.
+The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the Section \@ref(research-question) Research Question.
 
 
 ``` r
@@ -129,6 +129,53 @@ Table: (\#tab:create-summary-data)Summary Statistics by Risk Factor
 |Non-optimal temperature          |  -99460.72| -3182743|    -1471.74|  -47095.69|
 
 In Table \@ref(tab:create-summary-data) above, it can be observed that behavioural risks are associated with the most deaths and YLLs from self-harm, with a total of 263,431 deaths and 17,806,633 YLLs reported from 1990 to 2021. Conversely, environmental and temperature-related risks appear to have **negative** values, suggesting a non-attributable relationship with self-harm-related burdens.
+
+
+``` r
+burdens_over_time <- gbd_data_wide %>%
+  # Filter to show burden impacts across all risk factors
+  filter(risk_factor == "All risk factors") %>%
+  group_by(year) %>%
+  # Calculate sum of each burden
+  summarise(total_ylls = sum(ylls, na.rm=TRUE), 
+            total_deaths = sum(deaths, na.rm=TRUE),
+            total_ylds = sum(ylds, na.rm=TRUE)) %>% 
+    # Use mutate and lag to calculate the difference between previous year total and current year total and avoid all difference columns being NA (OpenAI 2024)
+    mutate(ylls_diff = total_ylls - lag(total_ylls),
+           deaths_diff = total_deaths - lag(total_deaths),
+           ylds_diff = total_ylds - lag(total_ylds))
+
+# Create a table of the burdens_over_time and add caption
+knitr::kable(tail(burdens_over_time, 21), caption = "Summary Statistics of Burdens Over Time", digits = 2)
+```
+
+
+
+Table: (\#tab:create-table-of-burdens-over-time)Summary Statistics of Burdens Over Time
+
+| year| total_ylls| total_deaths| total_ylds| ylls_diff| deaths_diff| ylds_diff|
+|----:|----------:|------------:|----------:|---------:|-----------:|---------:|
+| 2001|   506273.8|      7488.02|    4638.28|   1956.43|       28.98|    -24.41|
+| 2002|   512067.9|      7574.12|    4618.43|   5794.16|       86.10|    -19.84|
+| 2003|   495040.0|      7322.59|    4603.47| -17027.92|     -251.54|    -14.96|
+| 2004|   503026.5|      7440.77|    4596.06|   7986.48|      118.18|     -7.42|
+| 2005|   511936.2|      7573.02|    4589.76|   8909.70|      132.26|     -6.30|
+| 2006|   514605.6|      7612.95|    4588.70|   2669.45|       39.92|     -1.06|
+| 2007|   503268.1|      7445.90|    4567.53| -11337.50|     -167.04|    -21.17|
+| 2008|   490720.0|      7260.65|    4525.21| -12548.15|     -185.26|    -42.32|
+| 2009|   517228.2|      7653.29|    4473.71|  26508.20|      392.64|    -51.51|
+| 2010|   517170.0|      7653.30|    4410.83|    -58.13|        0.01|    -62.88|
+| 2011|   470129.8|      6957.73|    4323.83| -47040.26|     -695.57|    -87.00|
+| 2012|   474852.2|      7027.85|    4213.03|   4722.37|       70.12|   -110.79|
+| 2013|   452354.6|      6695.71|    4094.38| -22497.58|     -332.14|   -118.66|
+| 2014|   447396.6|      6621.72|    3983.91|  -4958.00|      -73.98|   -110.46|
+| 2015|   454101.2|      6720.43|    3885.26|   6704.66|       98.71|    -98.65|
+| 2016|   468514.8|      6933.30|    3816.45|  14413.55|      212.86|    -68.81|
+| 2017|   461801.6|      6834.17|    3768.42|  -6713.22|      -99.13|    -48.03|
+| 2018|   451093.5|      6675.73|    3733.96| -10708.04|     -158.44|    -34.46|
+| 2019|   454730.0|      6729.11|    3699.89|   3636.46|       53.38|    -34.07|
+| 2020|   437946.9|      6479.78|    3672.94| -16783.05|     -249.32|    -26.95|
+| 2021|   437362.6|      6470.71|    3671.69|   -584.36|       -9.08|     -1.25|
 
 ## Visualisations
 

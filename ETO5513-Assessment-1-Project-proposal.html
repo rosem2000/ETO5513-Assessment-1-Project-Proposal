@@ -1554,7 +1554,7 @@ border-radius: 0px;
 
 <h1 class="title toc-ignore">ETO5513 Assessment 1: Project Proposal</h1>
 <h4 class="author">Megan O’Rorke 35602287</h4>
-<h4 class="date">27/07/2025</h4>
+<h4 class="date">28/07/2025</h4>
 
 </div>
 
@@ -1631,7 +1631,7 @@ border-radius: 0px;
 </div>
 <div id="data-summary" class="section level2" number="4">
 <h2><span class="header-section-number">4</span> Data Summary</h2>
-<p>The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the first portion of the Section <a href="#research-question">1</a> Research Question.</p>
+<p>The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the Section <a href="#research-question">1</a> Research Question.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="co"># Select risk_factor as the categorical variable and ylls and deaths as numeric</span></span>
 <span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>summary_data <span class="ot">&lt;-</span> gbd_data_wide <span class="sc">%&gt;%</span> </span>
 <span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a>  <span class="fu">select</span>(risk_factor, ylls, deaths) <span class="sc">%&gt;%</span></span>
@@ -1722,35 +1722,264 @@ border-radius: 0px;
 </tbody>
 </table>
 <p>In Table <a href="#tab:create-summary-data">2</a> above, it can be observed that behavioural risks are associated with the most deaths and YLLs from self-harm, with a total of 263,431 deaths and 17,806,633 YLLs reported from 1990 to 2021. Conversely, environmental and temperature-related risks appear to have <strong>negative</strong> values, suggesting a non-attributable relationship with self-harm-related burdens.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>burdens_over_time <span class="ot">&lt;-</span> gbd_data_wide <span class="sc">%&gt;%</span></span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a>  <span class="co"># Filter to show burden impacts across all risk factors</span></span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a>  <span class="fu">filter</span>(risk_factor <span class="sc">==</span> <span class="st">&quot;All risk factors&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-4"><a href="#cb6-4" tabindex="-1"></a>  <span class="fu">group_by</span>(year) <span class="sc">%&gt;%</span></span>
+<span id="cb6-5"><a href="#cb6-5" tabindex="-1"></a>  <span class="co"># Calculate sum of each burden</span></span>
+<span id="cb6-6"><a href="#cb6-6" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">total_ylls =</span> <span class="fu">sum</span>(ylls, <span class="at">na.rm=</span><span class="cn">TRUE</span>), </span>
+<span id="cb6-7"><a href="#cb6-7" tabindex="-1"></a>            <span class="at">total_deaths =</span> <span class="fu">sum</span>(deaths, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb6-8"><a href="#cb6-8" tabindex="-1"></a>            <span class="at">total_ylds =</span> <span class="fu">sum</span>(ylds, <span class="at">na.rm=</span><span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-9"><a href="#cb6-9" tabindex="-1"></a>    <span class="co"># Use mutate and lag to calculate the difference between previous year total and current year total and avoid all difference columns being NA (OpenAI 2024)</span></span>
+<span id="cb6-10"><a href="#cb6-10" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">ylls_diff =</span> total_ylls <span class="sc">-</span> <span class="fu">lag</span>(total_ylls),</span>
+<span id="cb6-11"><a href="#cb6-11" tabindex="-1"></a>           <span class="at">deaths_diff =</span> total_deaths <span class="sc">-</span> <span class="fu">lag</span>(total_deaths),</span>
+<span id="cb6-12"><a href="#cb6-12" tabindex="-1"></a>           <span class="at">ylds_diff =</span> total_ylds <span class="sc">-</span> <span class="fu">lag</span>(total_ylds))</span>
+<span id="cb6-13"><a href="#cb6-13" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" tabindex="-1"></a><span class="co"># Create a table of the burdens_over_time and add caption</span></span>
+<span id="cb6-15"><a href="#cb6-15" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">tail</span>(burdens_over_time, <span class="dv">21</span>), <span class="at">caption =</span> <span class="st">&quot;Summary Statistics of Burdens Over Time&quot;</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<table>
+<caption><span id="tab:create-table-of-burdens-over-time">Table 3: </span>Summary Statistics of Burdens Over Time</caption>
+<colgroup>
+<col width="6%" />
+<col width="15%" />
+<col width="18%" />
+<col width="15%" />
+<col width="13%" />
+<col width="16%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="right">year</th>
+<th align="right">total_ylls</th>
+<th align="right">total_deaths</th>
+<th align="right">total_ylds</th>
+<th align="right">ylls_diff</th>
+<th align="right">deaths_diff</th>
+<th align="right">ylds_diff</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">2001</td>
+<td align="right">506273.8</td>
+<td align="right">7488.02</td>
+<td align="right">4638.28</td>
+<td align="right">1956.43</td>
+<td align="right">28.98</td>
+<td align="right">-24.41</td>
+</tr>
+<tr class="even">
+<td align="right">2002</td>
+<td align="right">512067.9</td>
+<td align="right">7574.12</td>
+<td align="right">4618.43</td>
+<td align="right">5794.16</td>
+<td align="right">86.10</td>
+<td align="right">-19.84</td>
+</tr>
+<tr class="odd">
+<td align="right">2003</td>
+<td align="right">495040.0</td>
+<td align="right">7322.59</td>
+<td align="right">4603.47</td>
+<td align="right">-17027.92</td>
+<td align="right">-251.54</td>
+<td align="right">-14.96</td>
+</tr>
+<tr class="even">
+<td align="right">2004</td>
+<td align="right">503026.5</td>
+<td align="right">7440.77</td>
+<td align="right">4596.06</td>
+<td align="right">7986.48</td>
+<td align="right">118.18</td>
+<td align="right">-7.42</td>
+</tr>
+<tr class="odd">
+<td align="right">2005</td>
+<td align="right">511936.2</td>
+<td align="right">7573.02</td>
+<td align="right">4589.76</td>
+<td align="right">8909.70</td>
+<td align="right">132.26</td>
+<td align="right">-6.30</td>
+</tr>
+<tr class="even">
+<td align="right">2006</td>
+<td align="right">514605.6</td>
+<td align="right">7612.95</td>
+<td align="right">4588.70</td>
+<td align="right">2669.45</td>
+<td align="right">39.92</td>
+<td align="right">-1.06</td>
+</tr>
+<tr class="odd">
+<td align="right">2007</td>
+<td align="right">503268.1</td>
+<td align="right">7445.90</td>
+<td align="right">4567.53</td>
+<td align="right">-11337.50</td>
+<td align="right">-167.04</td>
+<td align="right">-21.17</td>
+</tr>
+<tr class="even">
+<td align="right">2008</td>
+<td align="right">490720.0</td>
+<td align="right">7260.65</td>
+<td align="right">4525.21</td>
+<td align="right">-12548.15</td>
+<td align="right">-185.26</td>
+<td align="right">-42.32</td>
+</tr>
+<tr class="odd">
+<td align="right">2009</td>
+<td align="right">517228.2</td>
+<td align="right">7653.29</td>
+<td align="right">4473.71</td>
+<td align="right">26508.20</td>
+<td align="right">392.64</td>
+<td align="right">-51.51</td>
+</tr>
+<tr class="even">
+<td align="right">2010</td>
+<td align="right">517170.0</td>
+<td align="right">7653.30</td>
+<td align="right">4410.83</td>
+<td align="right">-58.13</td>
+<td align="right">0.01</td>
+<td align="right">-62.88</td>
+</tr>
+<tr class="odd">
+<td align="right">2011</td>
+<td align="right">470129.8</td>
+<td align="right">6957.73</td>
+<td align="right">4323.83</td>
+<td align="right">-47040.26</td>
+<td align="right">-695.57</td>
+<td align="right">-87.00</td>
+</tr>
+<tr class="even">
+<td align="right">2012</td>
+<td align="right">474852.2</td>
+<td align="right">7027.85</td>
+<td align="right">4213.03</td>
+<td align="right">4722.37</td>
+<td align="right">70.12</td>
+<td align="right">-110.79</td>
+</tr>
+<tr class="odd">
+<td align="right">2013</td>
+<td align="right">452354.6</td>
+<td align="right">6695.71</td>
+<td align="right">4094.38</td>
+<td align="right">-22497.58</td>
+<td align="right">-332.14</td>
+<td align="right">-118.66</td>
+</tr>
+<tr class="even">
+<td align="right">2014</td>
+<td align="right">447396.6</td>
+<td align="right">6621.72</td>
+<td align="right">3983.91</td>
+<td align="right">-4958.00</td>
+<td align="right">-73.98</td>
+<td align="right">-110.46</td>
+</tr>
+<tr class="odd">
+<td align="right">2015</td>
+<td align="right">454101.2</td>
+<td align="right">6720.43</td>
+<td align="right">3885.26</td>
+<td align="right">6704.66</td>
+<td align="right">98.71</td>
+<td align="right">-98.65</td>
+</tr>
+<tr class="even">
+<td align="right">2016</td>
+<td align="right">468514.8</td>
+<td align="right">6933.30</td>
+<td align="right">3816.45</td>
+<td align="right">14413.55</td>
+<td align="right">212.86</td>
+<td align="right">-68.81</td>
+</tr>
+<tr class="odd">
+<td align="right">2017</td>
+<td align="right">461801.6</td>
+<td align="right">6834.17</td>
+<td align="right">3768.42</td>
+<td align="right">-6713.22</td>
+<td align="right">-99.13</td>
+<td align="right">-48.03</td>
+</tr>
+<tr class="even">
+<td align="right">2018</td>
+<td align="right">451093.5</td>
+<td align="right">6675.73</td>
+<td align="right">3733.96</td>
+<td align="right">-10708.04</td>
+<td align="right">-158.44</td>
+<td align="right">-34.46</td>
+</tr>
+<tr class="odd">
+<td align="right">2019</td>
+<td align="right">454730.0</td>
+<td align="right">6729.11</td>
+<td align="right">3699.89</td>
+<td align="right">3636.46</td>
+<td align="right">53.38</td>
+<td align="right">-34.07</td>
+</tr>
+<tr class="even">
+<td align="right">2020</td>
+<td align="right">437946.9</td>
+<td align="right">6479.78</td>
+<td align="right">3672.94</td>
+<td align="right">-16783.05</td>
+<td align="right">-249.32</td>
+<td align="right">-26.95</td>
+</tr>
+<tr class="odd">
+<td align="right">2021</td>
+<td align="right">437362.6</td>
+<td align="right">6470.71</td>
+<td align="right">3671.69</td>
+<td align="right">-584.36</td>
+<td align="right">-9.08</td>
+<td align="right">-1.25</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="visualisations" class="section level2" number="5">
 <h2><span class="header-section-number">5</span> Visualisations</h2>
 <p>As explored in Table <a href="#tab:create-summary-data">2</a> above, behavioural risks such as tobacco use, child malnutrition, low physical activity, unsafe sex, dietary risks, domestic violence and bullying have the highest association with health burdens attributed to self-harm.</p>
 <p>The line plot below depicts the trends in self-harm related deaths attributed to behavioural risks over time, from 1990 to 2021.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="co"># Filter data to just behavioural risk observations</span></span>
-<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a>behavioural <span class="ot">&lt;-</span> gbd_data_wide <span class="sc">%&gt;%</span></span>
-<span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a>  <span class="co"># Filter to plot only the figures for behavioural risks</span></span>
-<span id="cb6-4"><a href="#cb6-4" tabindex="-1"></a>  <span class="fu">filter</span>(risk_factor <span class="sc">==</span> <span class="st">&quot;Behavioral risks&quot;</span>)</span>
-<span id="cb6-5"><a href="#cb6-5" tabindex="-1"></a></span>
-<span id="cb6-6"><a href="#cb6-6" tabindex="-1"></a><span class="co"># Use ggplot to create line plot of the 3 health burdens from 1990-2021</span></span>
-<span id="cb6-7"><a href="#cb6-7" tabindex="-1"></a>  <span class="co"># Use ggplot to plot year on x axis and deaths, ylls and ylds as y axis values</span></span>
-<span id="cb6-8"><a href="#cb6-8" tabindex="-1"></a><span class="fu">ggplot</span>(behavioural, <span class="fu">aes</span>(<span class="at">x=</span>year, <span class="at">y=</span>deaths)) <span class="sc">+</span></span>
-<span id="cb6-9"><a href="#cb6-9" tabindex="-1"></a>  <span class="co"># Set line plot and colour</span></span>
-<span id="cb6-10"><a href="#cb6-10" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">&quot;Hot Pink&quot;</span>) <span class="sc">+</span></span>
-<span id="cb6-11"><a href="#cb6-11" tabindex="-1"></a>  <span class="co"># Use geom_point to add point mappings for each year</span></span>
-<span id="cb6-12"><a href="#cb6-12" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">&quot;Hot Pink&quot;</span>) <span class="sc">+</span></span>
-<span id="cb6-13"><a href="#cb6-13" tabindex="-1"></a>  <span class="co"># Scale x axis to ensure readability of year values</span></span>
-<span id="cb6-14"><a href="#cb6-14" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">1990</span>, <span class="dv">2021</span>, <span class="dv">2</span>)) <span class="sc">+</span></span>
-<span id="cb6-15"><a href="#cb6-15" tabindex="-1"></a>  <span class="co"># Scale y axis to remove scientific number formatting</span></span>
-<span id="cb6-16"><a href="#cb6-16" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma) <span class="sc">+</span></span>
-<span id="cb6-17"><a href="#cb6-17" tabindex="-1"></a>  <span class="co"># Set caption and axis labels</span></span>
-<span id="cb6-18"><a href="#cb6-18" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">caption =</span> <span class="st">&quot;Self-Harm Related Deaths Attributed to Behavioural Risks, 1990-2021&quot;</span>,</span>
-<span id="cb6-19"><a href="#cb6-19" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;Year&quot;</span>,</span>
-<span id="cb6-20"><a href="#cb6-20" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Number of Deaths&quot;</span>) <span class="sc">+</span></span>
-<span id="cb6-21"><a href="#cb6-21" tabindex="-1"></a>  <span class="co"># Set different theme</span></span>
-<span id="cb6-22"><a href="#cb6-22" tabindex="-1"></a>  <span class="fu">theme_light</span>() <span class="sc">+</span></span>
-<span id="cb6-23"><a href="#cb6-23" tabindex="-1"></a>  <span class="co"># Make caption centered and larger (OpenAI 2024)</span></span>
-<span id="cb6-24"><a href="#cb6-24" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.caption =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">12</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="co"># Filter data to just behavioural risk observations</span></span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a>behavioural <span class="ot">&lt;-</span> gbd_data_wide <span class="sc">%&gt;%</span></span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a>  <span class="co"># Filter to plot only the figures for behavioural risks</span></span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a>  <span class="fu">filter</span>(risk_factor <span class="sc">==</span> <span class="st">&quot;Behavioral risks&quot;</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" tabindex="-1"></a><span class="co"># Use ggplot to create line plot of the 3 health burdens from 1990-2021</span></span>
+<span id="cb7-7"><a href="#cb7-7" tabindex="-1"></a>  <span class="co"># Use ggplot to plot year on x axis and deaths, ylls and ylds as y axis values</span></span>
+<span id="cb7-8"><a href="#cb7-8" tabindex="-1"></a><span class="fu">ggplot</span>(behavioural, <span class="fu">aes</span>(<span class="at">x=</span>year, <span class="at">y=</span>deaths)) <span class="sc">+</span></span>
+<span id="cb7-9"><a href="#cb7-9" tabindex="-1"></a>  <span class="co"># Set line plot and colour</span></span>
+<span id="cb7-10"><a href="#cb7-10" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">&quot;Hot Pink&quot;</span>) <span class="sc">+</span></span>
+<span id="cb7-11"><a href="#cb7-11" tabindex="-1"></a>  <span class="co"># Use geom_point to add point mappings for each year</span></span>
+<span id="cb7-12"><a href="#cb7-12" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">&quot;Hot Pink&quot;</span>) <span class="sc">+</span></span>
+<span id="cb7-13"><a href="#cb7-13" tabindex="-1"></a>  <span class="co"># Scale x axis to ensure readability of year values</span></span>
+<span id="cb7-14"><a href="#cb7-14" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">1990</span>, <span class="dv">2021</span>, <span class="dv">2</span>)) <span class="sc">+</span></span>
+<span id="cb7-15"><a href="#cb7-15" tabindex="-1"></a>  <span class="co"># Scale y axis to remove scientific number formatting</span></span>
+<span id="cb7-16"><a href="#cb7-16" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma) <span class="sc">+</span></span>
+<span id="cb7-17"><a href="#cb7-17" tabindex="-1"></a>  <span class="co"># Set caption and axis labels</span></span>
+<span id="cb7-18"><a href="#cb7-18" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">caption =</span> <span class="st">&quot;Self-Harm Related Deaths Attributed to Behavioural Risks, 1990-2021&quot;</span>,</span>
+<span id="cb7-19"><a href="#cb7-19" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;Year&quot;</span>,</span>
+<span id="cb7-20"><a href="#cb7-20" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Number of Deaths&quot;</span>) <span class="sc">+</span></span>
+<span id="cb7-21"><a href="#cb7-21" tabindex="-1"></a>  <span class="co"># Set different theme</span></span>
+<span id="cb7-22"><a href="#cb7-22" tabindex="-1"></a>  <span class="fu">theme_light</span>() <span class="sc">+</span></span>
+<span id="cb7-23"><a href="#cb7-23" tabindex="-1"></a>  <span class="co"># Make caption centered and larger (OpenAI 2024)</span></span>
+<span id="cb7-24"><a href="#cb7-24" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.caption =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">12</span>))</span></code></pre></div>
 <p><img role="img" src="data:image/png;base64,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" width="100%" style="display: block; margin: auto;" /></p>
 <ul>
 <li><em>In the line plot above, it can be observed that deaths from self-harm associated with behavioural risks had a positive association with year, gradually rising between 1990 and 1995. Deaths peaked in 1995 before declining and then peaking again in 2000.</em></li>
