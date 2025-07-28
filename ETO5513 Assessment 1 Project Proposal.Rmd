@@ -81,6 +81,7 @@ Of the 5 variables, *YLLs*, *YLDs* and *Deaths* are of numeric type, as most val
 # Display first 2 data rows using str() and head () to set observation rows displayed to 2
 str(head(gbd_data_wide, 2))
 ```
+
 ## Data Summary
 
 The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the first portion of the Section \@ref(research-question) Research Question.
