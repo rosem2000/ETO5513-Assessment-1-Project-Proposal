@@ -15,7 +15,7 @@ output:
 
 ```{r setup, include=FALSE}
 # Set up figure rendering options for document
-knitr::opts_chunk$set(fig.path = "Figures/", fig.align = "center", out.width = "100%")
+knitr::opts_chunk$set(fig.path = "Figures/", fig.align = "center", out.width = "70%")
 ```
 
 ```{r loading-libraries, message = FALSE, warning = FALSE, echo = FALSE}
