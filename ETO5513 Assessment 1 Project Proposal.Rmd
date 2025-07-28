@@ -167,6 +167,8 @@ ggplotly(bar_chart) %>%
       # Set the vertical (y) position of legend to above the plot
       y = 1.1))
 ```
+- *In Figure \@ref(fig:stacked-bar-chart-burdens-by-year-for-behavioural-risks) above, YLLs have annually contributed approximately 97.7% of the total health burdens reported from behavioural-risk-associated self-harm between 1990 and 2021.*
+- *This consistency reflects that self-harm remains overwhelmingly fatal over time, causing a large number of premature deaths. YLLs dominate the data set, as they represent the number of years of life lost for each 20-24 year-old self-harm death - which is significant as this demographic are typically healthy with considerable years left to live.*
 
 ## Conclusions
 
