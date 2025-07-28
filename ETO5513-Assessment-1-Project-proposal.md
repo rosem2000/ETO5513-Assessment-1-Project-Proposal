@@ -145,27 +145,16 @@ burdens_over_time <- gbd_data_wide %>%
            deaths_diff = total_deaths - lag(total_deaths),
            ylds_diff = total_ylds - lag(total_ylds))
 
-# Create a table of the burdens_over_time and add caption
-knitr::kable(tail(burdens_over_time, 21), caption = "Summary Statistics of Burdens Over Time", digits = 2)
+# Create a table of the burdens_over_time from last decade and add caption
+knitr::kable(tail(burdens_over_time, 10), caption = "Change in Health Burden Values for All Risk Factors, 2012-2021", digits = 2)
 ```
 
 
 
-Table: (\#tab:create-table-of-burdens-over-time)Summary Statistics of Burdens Over Time
+Table: (\#tab:create-table-of-burdens-over-time)Change in Health Burden Values for All Risk Factors, 2012-2021
 
 | year| total_ylls| total_deaths| total_ylds| ylls_diff| deaths_diff| ylds_diff|
 |----:|----------:|------------:|----------:|---------:|-----------:|---------:|
-| 2001|   506273.8|      7488.02|    4638.28|   1956.43|       28.98|    -24.41|
-| 2002|   512067.9|      7574.12|    4618.43|   5794.16|       86.10|    -19.84|
-| 2003|   495040.0|      7322.59|    4603.47| -17027.92|     -251.54|    -14.96|
-| 2004|   503026.5|      7440.77|    4596.06|   7986.48|      118.18|     -7.42|
-| 2005|   511936.2|      7573.02|    4589.76|   8909.70|      132.26|     -6.30|
-| 2006|   514605.6|      7612.95|    4588.70|   2669.45|       39.92|     -1.06|
-| 2007|   503268.1|      7445.90|    4567.53| -11337.50|     -167.04|    -21.17|
-| 2008|   490720.0|      7260.65|    4525.21| -12548.15|     -185.26|    -42.32|
-| 2009|   517228.2|      7653.29|    4473.71|  26508.20|      392.64|    -51.51|
-| 2010|   517170.0|      7653.30|    4410.83|    -58.13|        0.01|    -62.88|
-| 2011|   470129.8|      6957.73|    4323.83| -47040.26|     -695.57|    -87.00|
 | 2012|   474852.2|      7027.85|    4213.03|   4722.37|       70.12|   -110.79|
 | 2013|   452354.6|      6695.71|    4094.38| -22497.58|     -332.14|   -118.66|
 | 2014|   447396.6|      6621.72|    3983.91|  -4958.00|      -73.98|   -110.46|
@@ -176,6 +165,7 @@ Table: (\#tab:create-table-of-burdens-over-time)Summary Statistics of Burdens Ov
 | 2019|   454730.0|      6729.11|    3699.89|   3636.46|       53.38|    -34.07|
 | 2020|   437946.9|      6479.78|    3672.94| -16783.05|     -249.32|    -26.95|
 | 2021|   437362.6|      6470.71|    3671.69|   -584.36|       -9.08|     -1.25|
+In Table \@ref(tab:create-table-of-burdens-over-time) above, it can be observed that behavioural risks are associated with the most deaths and YLLs from self-harm, with a total of 263,431 deaths and 17,806,633 YLLs reported from 1990 to 2021. Conversely, environmental and temperature-related risks appear to have **negative** values, suggesting a non-attributable relationship with self-harm-related burdens.
 
 ## Visualisations
 

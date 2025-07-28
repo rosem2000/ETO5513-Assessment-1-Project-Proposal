@@ -1735,10 +1735,10 @@ border-radius: 0px;
 <span id="cb6-11"><a href="#cb6-11" tabindex="-1"></a>           <span class="at">deaths_diff =</span> total_deaths <span class="sc">-</span> <span class="fu">lag</span>(total_deaths),</span>
 <span id="cb6-12"><a href="#cb6-12" tabindex="-1"></a>           <span class="at">ylds_diff =</span> total_ylds <span class="sc">-</span> <span class="fu">lag</span>(total_ylds))</span>
 <span id="cb6-13"><a href="#cb6-13" tabindex="-1"></a></span>
-<span id="cb6-14"><a href="#cb6-14" tabindex="-1"></a><span class="co"># Create a table of the burdens_over_time and add caption</span></span>
-<span id="cb6-15"><a href="#cb6-15" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">tail</span>(burdens_over_time, <span class="dv">21</span>), <span class="at">caption =</span> <span class="st">&quot;Summary Statistics of Burdens Over Time&quot;</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<span id="cb6-14"><a href="#cb6-14" tabindex="-1"></a><span class="co"># Create a table of the burdens_over_time from last decade and add caption</span></span>
+<span id="cb6-15"><a href="#cb6-15" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">tail</span>(burdens_over_time, <span class="dv">10</span>), <span class="at">caption =</span> <span class="st">&quot;Change in Health Burden Values for All Risk Factors, 2012-2021&quot;</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
 <table>
-<caption><span id="tab:create-table-of-burdens-over-time">Table 3: </span>Summary Statistics of Burdens Over Time</caption>
+<caption><span id="tab:create-table-of-burdens-over-time">Table 3: </span>Change in Health Burden Values for All Risk Factors, 2012-2021</caption>
 <colgroup>
 <col width="6%" />
 <col width="15%" />
@@ -1761,105 +1761,6 @@ border-radius: 0px;
 </thead>
 <tbody>
 <tr class="odd">
-<td align="right">2001</td>
-<td align="right">506273.8</td>
-<td align="right">7488.02</td>
-<td align="right">4638.28</td>
-<td align="right">1956.43</td>
-<td align="right">28.98</td>
-<td align="right">-24.41</td>
-</tr>
-<tr class="even">
-<td align="right">2002</td>
-<td align="right">512067.9</td>
-<td align="right">7574.12</td>
-<td align="right">4618.43</td>
-<td align="right">5794.16</td>
-<td align="right">86.10</td>
-<td align="right">-19.84</td>
-</tr>
-<tr class="odd">
-<td align="right">2003</td>
-<td align="right">495040.0</td>
-<td align="right">7322.59</td>
-<td align="right">4603.47</td>
-<td align="right">-17027.92</td>
-<td align="right">-251.54</td>
-<td align="right">-14.96</td>
-</tr>
-<tr class="even">
-<td align="right">2004</td>
-<td align="right">503026.5</td>
-<td align="right">7440.77</td>
-<td align="right">4596.06</td>
-<td align="right">7986.48</td>
-<td align="right">118.18</td>
-<td align="right">-7.42</td>
-</tr>
-<tr class="odd">
-<td align="right">2005</td>
-<td align="right">511936.2</td>
-<td align="right">7573.02</td>
-<td align="right">4589.76</td>
-<td align="right">8909.70</td>
-<td align="right">132.26</td>
-<td align="right">-6.30</td>
-</tr>
-<tr class="even">
-<td align="right">2006</td>
-<td align="right">514605.6</td>
-<td align="right">7612.95</td>
-<td align="right">4588.70</td>
-<td align="right">2669.45</td>
-<td align="right">39.92</td>
-<td align="right">-1.06</td>
-</tr>
-<tr class="odd">
-<td align="right">2007</td>
-<td align="right">503268.1</td>
-<td align="right">7445.90</td>
-<td align="right">4567.53</td>
-<td align="right">-11337.50</td>
-<td align="right">-167.04</td>
-<td align="right">-21.17</td>
-</tr>
-<tr class="even">
-<td align="right">2008</td>
-<td align="right">490720.0</td>
-<td align="right">7260.65</td>
-<td align="right">4525.21</td>
-<td align="right">-12548.15</td>
-<td align="right">-185.26</td>
-<td align="right">-42.32</td>
-</tr>
-<tr class="odd">
-<td align="right">2009</td>
-<td align="right">517228.2</td>
-<td align="right">7653.29</td>
-<td align="right">4473.71</td>
-<td align="right">26508.20</td>
-<td align="right">392.64</td>
-<td align="right">-51.51</td>
-</tr>
-<tr class="even">
-<td align="right">2010</td>
-<td align="right">517170.0</td>
-<td align="right">7653.30</td>
-<td align="right">4410.83</td>
-<td align="right">-58.13</td>
-<td align="right">0.01</td>
-<td align="right">-62.88</td>
-</tr>
-<tr class="odd">
-<td align="right">2011</td>
-<td align="right">470129.8</td>
-<td align="right">6957.73</td>
-<td align="right">4323.83</td>
-<td align="right">-47040.26</td>
-<td align="right">-695.57</td>
-<td align="right">-87.00</td>
-</tr>
-<tr class="even">
 <td align="right">2012</td>
 <td align="right">474852.2</td>
 <td align="right">7027.85</td>
@@ -1868,7 +1769,7 @@ border-radius: 0px;
 <td align="right">70.12</td>
 <td align="right">-110.79</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">2013</td>
 <td align="right">452354.6</td>
 <td align="right">6695.71</td>
@@ -1877,7 +1778,7 @@ border-radius: 0px;
 <td align="right">-332.14</td>
 <td align="right">-118.66</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="right">2014</td>
 <td align="right">447396.6</td>
 <td align="right">6621.72</td>
@@ -1886,7 +1787,7 @@ border-radius: 0px;
 <td align="right">-73.98</td>
 <td align="right">-110.46</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">2015</td>
 <td align="right">454101.2</td>
 <td align="right">6720.43</td>
@@ -1895,7 +1796,7 @@ border-radius: 0px;
 <td align="right">98.71</td>
 <td align="right">-98.65</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="right">2016</td>
 <td align="right">468514.8</td>
 <td align="right">6933.30</td>
@@ -1904,7 +1805,7 @@ border-radius: 0px;
 <td align="right">212.86</td>
 <td align="right">-68.81</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">2017</td>
 <td align="right">461801.6</td>
 <td align="right">6834.17</td>
@@ -1913,7 +1814,7 @@ border-radius: 0px;
 <td align="right">-99.13</td>
 <td align="right">-48.03</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="right">2018</td>
 <td align="right">451093.5</td>
 <td align="right">6675.73</td>
@@ -1922,7 +1823,7 @@ border-radius: 0px;
 <td align="right">-158.44</td>
 <td align="right">-34.46</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">2019</td>
 <td align="right">454730.0</td>
 <td align="right">6729.11</td>
@@ -1931,7 +1832,7 @@ border-radius: 0px;
 <td align="right">53.38</td>
 <td align="right">-34.07</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="right">2020</td>
 <td align="right">437946.9</td>
 <td align="right">6479.78</td>
@@ -1940,7 +1841,7 @@ border-radius: 0px;
 <td align="right">-249.32</td>
 <td align="right">-26.95</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">2021</td>
 <td align="right">437362.6</td>
 <td align="right">6470.71</td>
@@ -1951,6 +1852,7 @@ border-radius: 0px;
 </tr>
 </tbody>
 </table>
+<p>In Table <a href="#tab:create-table-of-burdens-over-time">3</a> above, it can be observed that behavioural risks are associated with the most deaths and YLLs from self-harm, with a total of 263,431 deaths and 17,806,633 YLLs reported from 1990 to 2021. Conversely, environmental and temperature-related risks appear to have <strong>negative</strong> values, suggesting a non-attributable relationship with self-harm-related burdens.</p>
 </div>
 <div id="visualisations" class="section level2" number="5">
 <h2><span class="header-section-number">5</span> Visualisations</h2>
