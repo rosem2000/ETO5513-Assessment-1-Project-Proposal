@@ -158,9 +158,7 @@ ggplot(behavioural, aes(x=year, y=deaths)) +
 
 ## Conclusions
 
-The significance of risk factors associated with self-harm among 20-24 year-olds from 1990 to 2021 were analysed using the Global Burden of Disease Study 2021 data.
-
-Behavioural risks returned the highest mean of 556,457.27 and sum of 17,806,633	years of life lost spanning from 1990-2021, and the highest mean of 8,232.21	and sum of 263,430.57 deaths from 1990-2021.
+Overall, behavioural risks returned the highest mean and sum of years of life lost and deaths spanning from 1990-2021, indicating its predominance in self-harm-related health burdens. Across all risk factors, there has been a decline in self-harm-related health burdens since 2012, indicating improvements in preventative measures and reductions in risk exposures and effects.
 
 The effect of behavioural risks on deaths has changed over time, reporting a significant decline in total deaths from 2000 onwards.
 
