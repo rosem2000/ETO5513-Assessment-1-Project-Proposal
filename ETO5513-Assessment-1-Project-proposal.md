@@ -95,7 +95,7 @@ str(head(gbd_data_wide, 2))
 ```
 ## Data Summary
 
-The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the first portion of the Section \@ref(research-question) Research Question.
+The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the Section \@ref(research-question) Research Question.
 
 
 ``` r
@@ -129,6 +129,43 @@ Table: (\#tab:create-summary-data)Summary Statistics by Risk Factor
 |Non-optimal temperature          |  -99460.72| -3182743|    -1471.74|  -47095.69|
 
 In Table \@ref(tab:create-summary-data) above, it can be observed that behavioural risks are associated with the most deaths and YLLs from self-harm, with a total of 263,431 deaths and 17,806,633 YLLs reported from 1990 to 2021. Conversely, environmental and temperature-related risks appear to have **negative** values, suggesting a non-attributable relationship with self-harm-related burdens.
+
+
+``` r
+burdens_over_time <- gbd_data_wide %>%
+  # Filter to show burden impacts across all risk factors
+  filter(risk_factor == "All risk factors") %>%
+  group_by(year) %>%
+  # Calculate sum of each burden
+  summarise(total_ylls = sum(ylls, na.rm=TRUE), 
+            total_deaths = sum(deaths, na.rm=TRUE),
+            total_ylds = sum(ylds, na.rm=TRUE)) %>% 
+    # Use mutate and lag to calculate the difference between previous year total and current year total and avoid all difference columns being NA (OpenAI 2024)
+    mutate(ylls_diff = total_ylls - lag(total_ylls),
+           deaths_diff = total_deaths - lag(total_deaths),
+           ylds_diff = total_ylds - lag(total_ylds))
+
+# Create a table of the burdens_over_time from last decade and add caption
+knitr::kable(tail(burdens_over_time, 10), caption = "Change in Health Burden Values for All Risk Factors, 2012-2021", digits = 2)
+```
+
+
+
+Table: (\#tab:create-table-of-burdens-over-time)Change in Health Burden Values for All Risk Factors, 2012-2021
+
+| year| total_ylls| total_deaths| total_ylds| ylls_diff| deaths_diff| ylds_diff|
+|----:|----------:|------------:|----------:|---------:|-----------:|---------:|
+| 2012|   474852.2|      7027.85|    4213.03|   4722.37|       70.12|   -110.79|
+| 2013|   452354.6|      6695.71|    4094.38| -22497.58|     -332.14|   -118.66|
+| 2014|   447396.6|      6621.72|    3983.91|  -4958.00|      -73.98|   -110.46|
+| 2015|   454101.2|      6720.43|    3885.26|   6704.66|       98.71|    -98.65|
+| 2016|   468514.8|      6933.30|    3816.45|  14413.55|      212.86|    -68.81|
+| 2017|   461801.6|      6834.17|    3768.42|  -6713.22|      -99.13|    -48.03|
+| 2018|   451093.5|      6675.73|    3733.96| -10708.04|     -158.44|    -34.46|
+| 2019|   454730.0|      6729.11|    3699.89|   3636.46|       53.38|    -34.07|
+| 2020|   437946.9|      6479.78|    3672.94| -16783.05|     -249.32|    -26.95|
+| 2021|   437362.6|      6470.71|    3671.69|   -584.36|       -9.08|     -1.25|
+In Table \@ref(tab:create-table-of-burdens-over-time) above, it can be observed that behavioural risks are associated with the most deaths and YLLs from self-harm, with a total of 263,431 deaths and 17,806,633 YLLs reported from 1990 to 2021. Conversely, environmental and temperature-related risks appear to have **negative** values, suggesting a non-attributable relationship with self-harm-related burdens.
 
 ## Visualisations
 

@@ -84,7 +84,7 @@ str(head(gbd_data_wide, 2))
 
 ## Data Summary
 
-The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the first portion of the Section \@ref(research-question) Research Question.
+The data summary below explores the mean and sum statistics of deaths and YLLs for each risk factor of self-harm from 1990 to 2021, addressing the Section \@ref(research-question) Research Question.
 
 ```{r create-summary-data, echo = TRUE, warning = FALSE, message = FALSE}
 # Select risk_factor as the categorical variable and ylls and deaths as numeric
@@ -102,6 +102,25 @@ knitr::kable(head(summary_data, 10), caption = "Summary Statistics by Risk Facto
 ```
 
 In Table \@ref(tab:create-summary-data) above, it can be observed that behavioural risks are associated with the most deaths and YLLs from self-harm, with a total of 263,431 deaths and 17,806,633 YLLs reported from 1990 to 2021. Conversely, environmental and temperature-related risks appear to have **negative** values, suggesting a non-attributable relationship with self-harm-related burdens.
+
+```{r create-table-of-burdens-over-time, echo = TRUE, warning = FALSE, message = FALSE}
+burdens_over_time <- gbd_data_wide %>%
+  # Filter to show burden impacts across all risk factors
+  filter(risk_factor == "All risk factors") %>%
+  group_by(year) %>%
+  # Calculate sum of each burden
+  summarise(total_ylls = sum(ylls, na.rm=TRUE), 
+            total_deaths = sum(deaths, na.rm=TRUE),
+            total_ylds = sum(ylds, na.rm=TRUE)) %>% 
+    # Use mutate and lag to calculate the difference between previous year total and current year total and avoid all difference columns being NA (OpenAI 2024)
+    mutate(ylls_diff = total_ylls - lag(total_ylls),
+           deaths_diff = total_deaths - lag(total_deaths),
+           ylds_diff = total_ylds - lag(total_ylds))
+
+# Create a table of the burdens_over_time from last decade and add caption
+knitr::kable(tail(burdens_over_time, 10), caption = "Change in Health Burden Values for All Risk Factors, 2012-2021", digits = 2)
+```
+In Table \@ref(tab:create-table-of-burdens-over-time) above, it can be observed that across all health burdens for all risk factors, there is a significant **negative** association with year. The greatest reduction in all health burdens occurred from 2012 to 2013, with YLLs in particular reducing by a total of 22,497.58 years. Notably, both YLLs and deaths increased in 2015, 2016 and 2019 from the year prior, reflecting an increase in exposure to certain risk factors during those periods. YLDs consistently declined year-on-year at a slower rate than deaths and YLLs, suggesting that gradual improvements in healthcare systems may have assisted in reducing disability burdens.
 
 ## Visualisations
 
@@ -173,9 +192,7 @@ ggplotly(bar_chart) %>%
 
 ## Conclusions
 
-The significance of risk factors associated with self-harm among 20-24 year-olds from 1990 to 2021 were analysed using the Global Burden of Disease Study 2021 data.
-
-Behavioural risks returned the highest mean of 556,457.27 and sum of 17,806,633	years of life lost spanning from 1990-2021, and the highest mean of 8,232.21	and sum of 263,430.57 deaths from 1990-2021.
+Overall, behavioural risks returned the highest mean and sum of years of life lost and deaths spanning from 1990-2021, indicating its predominance in self-harm-related health burdens. Across all risk factors, there has been a decline in self-harm-related health burdens since 2012, indicating improvements in preventative measures and reductions in risk exposures and effects.
 
 The effect of behavioural risks on deaths has changed over time, reporting a significant decline in deaths from 2000 onwards. Whilst the annual number of health burdens has decreased since 1990, the proportion of YLLs, deaths and YLDs has remained consistent.
 
